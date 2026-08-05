@@ -1,0 +1,26 @@
+hs_code,commodity,mfn_duty_pct,section_301_addl_pct,total_effective_duty_pct,tariff_sensitive,critical
+8542,Electronic Integrated Circuits,3.06,25.0,28.06,True,True
+8703,Motor Cars & Vehicles,10.14,0.0,10.14,True,False
+2709,Crude Petroleum Oils,24.23,0.0,24.23,True,True
+3004,Medicaments Packaged,4.06,25.0,29.06,True,True
+8517,Telephone Sets & Network Equipment,4.08,25.0,29.08,True,True
+8471,Automatic Data Processing Machines,8.45,7.5,15.95,True,True
+2711,Petroleum Gases,15.41,25.0,40.41,True,True
+8708,Motor Vehicle Parts,23.87,0.0,23.87,True,False
+9018,Medical Instruments,10.29,7.5,17.79,True,True
+7208,Flat-Rolled Iron/Steel,23.17,0.0,23.17,True,False
+2902,Cyclic Hydrocarbons,17.89,0.0,17.89,True,False
+7108,Gold Unwrought,0.49,0.0,0.49,False,False
+1005,Maize (Corn),19.93,0.0,19.93,True,False
+1201,Soya Beans,22.52,0.0,22.52,True,False
+2601,Iron Ores & Concentrates,13.1,25.0,38.1,True,True
+2804,"Hydrogen, Rare Gases, Silicon",4.93,25.0,29.93,True,True
+8507,Electric Accumulators,21.13,0.0,21.13,True,True
+9401,Seats,2.18,0.0,2.18,False,False
+3901,Polymers of Ethylene,13.66,0.0,13.66,True,False
+6109,T-shirts & Singlets,5.09,0.0,5.09,False,False
+2844,Radioactive Chemical Elements,7.53,25.0,32.53,True,True
+8112,"Beryllium, Chromium, Germanium etc.",6.92,25.0,31.92,True,True
+2615,"Niobium, Tantalum, Vanadium Ores",17.09,0.0,17.09,True,True
+8504,Electrical Transformers,7.21,0.0,7.21,False,False
+8802,Aircraft & Spacecraft,3.66,25.0,28.66,True,True
