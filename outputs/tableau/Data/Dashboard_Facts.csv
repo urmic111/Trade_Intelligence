@@ -1,0 +1,68 @@
+domain,entity,category,metric,value,detail
+risk,"Hydrogen, Rare Gases, Silicon",Critical,composite_risk,81.4,China
+risk,"Beryllium, Chromium, Germanium e",Critical,composite_risk,76.1,China
+risk,Iron Ores & Concentrates,Elevated,composite_risk,69.4,South Korea
+risk,Electronic Integrated Circuits,Elevated,composite_risk,67.6,South Korea
+risk,Crude Petroleum Oils,Elevated,composite_risk,65.0,South Korea
+risk,Petroleum Gases,Elevated,composite_risk,64.9,South Korea
+risk,Radioactive Chemical Elements,Elevated,composite_risk,64.7,Canada
+risk,Electric Accumulators,Elevated,composite_risk,63.6,South Korea
+risk,Maize (Corn),Elevated,composite_risk,63.1,France
+risk,Telephone Sets & Network Equipme,Elevated,composite_risk,61.5,France
+risk,Flat-Rolled Iron/Steel,Elevated,composite_risk,61.5,South Korea
+risk,Medicaments Packaged,Elevated,composite_risk,61.5,South Korea
+risk,Aircraft & Spacecraft,Elevated,composite_risk,61.4,South Korea
+risk,Medical Instruments,Elevated,composite_risk,61.4,South Korea
+risk,Motor Vehicle Parts,Elevated,composite_risk,60.0,South Korea
+risk,Soya Beans,Elevated,composite_risk,59.6,South Korea
+risk,T-shirts & Singlets,Elevated,composite_risk,59.5,South Korea
+risk,Cyclic Hydrocarbons,Elevated,composite_risk,58.2,South Korea
+risk,Motor Cars & Vehicles,Elevated,composite_risk,57.9,South Korea
+risk,"Niobium, Tantalum, Vanadium Ores",Elevated,composite_risk,57.8,Canada
+risk,Automatic Data Processing Machin,Elevated,composite_risk,57.6,South Korea
+risk,Polymers of Ethylene,Elevated,composite_risk,56.9,France
+risk,Electrical Transformers,Elevated,composite_risk,55.0,South Korea
+risk,Gold Unwrought,Moderate,composite_risk,54.6,South Korea
+risk,Seats,Moderate,composite_risk,53.5,South Korea
+port,Long Beach,normal,congestion_score,53.1,dwell=7.7d
+port,Los Angeles,normal,congestion_score,44.3,dwell=7.1d
+port,Oakland,normal,congestion_score,43.4,dwell=6.5d
+port,Seattle,normal,congestion_score,42.3,dwell=6.8d
+port,Norfolk,normal,congestion_score,37.3,dwell=6.2d
+port,Houston,normal,congestion_score,36.5,dwell=6.5d
+port,Savannah,normal,congestion_score,33.8,dwell=6.0d
+port,Miami,normal,congestion_score,32.0,dwell=5.8d
+port,New York/Newark,normal,congestion_score,26.5,dwell=5.1d
+port,Charleston,normal,congestion_score,24.9,dwell=5.0d
+anomaly,Soya Beans,spike,severity,6.41,2026-06-01
+anomaly,Electric Accumulators,spike,severity,6.41,2026-06-01
+anomaly,Aircraft & Spacecraft,spike,severity,6.4,2026-06-01
+anomaly,Motor Cars & Vehicles,spike,severity,5.64,2026-06-01
+anomaly,Petroleum Gases,spike,severity,5.56,2026-06-01
+anomaly,Gold Unwrought,spike,severity,5.37,2026-06-01
+anomaly,Electronic Integrated Circuits,spike,severity,5.01,2025-03-01
+dependency,Maize (Corn),Critical,top_supplier_share_pct,7.61,France
+dependency,Flat-Rolled Iron/Steel,Critical,top_supplier_share_pct,8.12,South Korea
+dependency,Medical Instruments,Critical,top_supplier_share_pct,7.88,South Korea
+dependency,Aircraft & Spacecraft,Critical,top_supplier_share_pct,7.94,South Korea
+dependency,Motor Vehicle Parts,Critical,top_supplier_share_pct,7.94,South Korea
+dependency,Motor Cars & Vehicles,Critical,top_supplier_share_pct,8.09,South Korea
+dependency,Electronic Integrated Circuits,Critical,top_supplier_share_pct,39.26,South Korea
+dependency,Telephone Sets & Network Equipme,Critical,top_supplier_share_pct,7.43,France
+dependency,Electric Accumulators,Critical,top_supplier_share_pct,34.57,South Korea
+dependency,Electrical Transformers,Critical,top_supplier_share_pct,8.04,South Korea
+dependency,Automatic Data Processing Machin,Critical,top_supplier_share_pct,8.12,South Korea
+dependency,"Beryllium, Chromium, Germanium e",Critical,top_supplier_share_pct,45.02,China
+dependency,Gold Unwrought,Critical,top_supplier_share_pct,8.14,South Korea
+dependency,Soya Beans,Critical,top_supplier_share_pct,8.16,South Korea
+dependency,T-shirts & Singlets,Critical,top_supplier_share_pct,7.69,South Korea
+dependency,Polymers of Ethylene,Critical,top_supplier_share_pct,7.78,France
+dependency,Medicaments Packaged,Critical,top_supplier_share_pct,7.91,South Korea
+dependency,Cyclic Hydrocarbons,Critical,top_supplier_share_pct,7.59,South Korea
+dependency,Radioactive Chemical Elements,Critical,top_supplier_share_pct,37.71,Canada
+dependency,"Hydrogen, Rare Gases, Silicon",Critical,top_supplier_share_pct,36.23,China
+dependency,Petroleum Gases,Critical,top_supplier_share_pct,8.24,South Korea
+dependency,Crude Petroleum Oils,Critical,top_supplier_share_pct,8.02,South Korea
+dependency,"Niobium, Tantalum, Vanadium Ores",Critical,top_supplier_share_pct,44.17,Canada
+dependency,Iron Ores & Concentrates,Critical,top_supplier_share_pct,7.89,South Korea
+dependency,Seats,Critical,top_supplier_share_pct,7.74,South Korea

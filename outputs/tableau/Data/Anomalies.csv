@@ -1,0 +1,8 @@
+date,hs_code,commodity,metric,value,z_score,direction,severity_score,baseline_mean,notes,commodity_short
+2026-06-01,1201,Soya Beans,import_value_usd_m,60710.81,3.206,spike,6.41,22034.89,Month 58 of series; |z|≥2.5,Soya Beans
+2026-06-01,8507,Electric Accumulators,import_value_usd_m,48738.96,3.207,spike,6.41,18850.59,Month 58 of series; |z|≥2.5,Electric Accumulators
+2026-06-01,8802,Aircraft & Spacecraft,import_value_usd_m,62480.31,3.199,spike,6.4,21287.48,Month 58 of series; |z|≥2.5,Aircraft & Spacecraft
+2026-06-01,8703,Motor Cars & Vehicles,import_value_usd_m,62411.12,2.821,spike,5.64,25520.53,Month 58 of series; |z|≥2.5,Motor Cars & Vehicles
+2026-06-01,2711,Petroleum Gases,import_value_usd_m,58872.93,2.782,spike,5.56,23357.26,Month 58 of series; |z|≥2.5,Petroleum Gases
+2026-06-01,7108,Gold Unwrought,import_value_usd_m,55551.56,2.686,spike,5.37,23148.79,Month 58 of series; |z|≥2.5,Gold Unwrought
+2025-03-01,8542,Electronic Integrated Circuits,import_value_usd_m,39611.69,2.507,spike,5.01,17302.66,Month 43 of series; |z|≥2.5,Electronic Integrated Circuits

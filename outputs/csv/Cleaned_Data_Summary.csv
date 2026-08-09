@@ -1,0 +1,6 @@
+table,original_rows,cleaned_rows,rows_removed,n_columns,columns,normalization_steps,missing_value_notes
+unified_trade,5706,5066,640,11,"date, country, hs_code, commodity, critical, import_value_usd_m, export_value_usd_m, year, month, import_volume_teu, export_volume_teu",country alias normalization | HS codes zero-padded to 4 digits | dates coerced to datetime | numeric nulls filled with column median | negative values clipped to 0 | deduplicated on date×country×hs_code | removed Census aggregate partners (regions/blocs/totals),"{'import_value_usd_m': 0, 'export_value_usd_m': 0, 'import_volume_teu': 0, 'export_volume_teu': 0}"
+ports,360,360,0,6,"date, port, teu_throughput, congestion_index, avg_dwell_days, vessel_queue","dates coerced | numeric fillna median | congestion_index clipped to [0,1]",{}
+tariffs,25,25,0,7,"hs_code, commodity, mfn_duty_pct, section_301_addl_pct, total_effective_duty_pct, tariff_sensitive, critical",passthrough — already structured,{}
+supply_chain,40,40,0,9,"event_id, event_date, event_type, country, hs_code, commodity, severity_1_10, estimated_delay_days, source",event_date datetime coercion,{}
+bea,66,66,0,12,"indicator, area_or_country, Frequency, year, TimeSeriesId, TimeSeriesDescription, year, CL_UNIT, UNIT_MULT, value, NoteRef, requested_indicator",date coercion if present,{}

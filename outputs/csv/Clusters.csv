@@ -1,0 +1,39 @@
+entity_type,entity_id,entity_name,cluster,total_import_12m_usd_m,cluster_label
+commodity,8471,Automatic Data Processing Machines,2,138373.69,Commodity: Automatic Data Processing Machines
+commodity,8703,Motor Cars & Vehicles,3,61043.23,Commodity: Motor Cars & Vehicles
+commodity,8517,Telephone Sets & Network Equipment,0,60918.44,Commodity: Telephone Sets & Network Equipment
+commodity,2709,Crude Petroleum Oils,1,52380.63,Commodity: Crude Petroleum Oils
+commodity,8708,Motor Vehicle Parts,0,27833.44,Commodity: Telephone Sets & Network Equipment
+commodity,3004,Medicaments Packaged,4,23874.52,Commodity: Medicaments Packaged
+commodity,8542,Electronic Integrated Circuits,0,18336.94,Commodity: Telephone Sets & Network Equipment
+commodity,2711,Petroleum Gases,0,3597.55,Commodity: Telephone Sets & Network Equipment
+country,MEXICO,Mexico,1,85929.37,C1: Mexico-led (10)
+country,TAIWAN,Taiwan,1,60521.91,C1: Mexico-led (10)
+country,CANADA,Canada,2,52797.65,C2: Canada
+country,VIETNAM,Vietnam,1,31770.16,C1: Mexico-led (10)
+country,THAILAND,Thailand,1,28453.15,C1: Mexico-led (10)
+country,JAPAN,Japan,4,16354.2,C3: Japan-led (7)
+country,INDIA,India,1,15261.93,C1: Mexico-led (10)
+country,South Korea,South Korea,4,14590.88,C3: Japan-led (7)
+country,CHINA,China,1,13771.61,C1: Mexico-led (10)
+country,GERMANY,Germany,4,10443.89,C3: Japan-led (7)
+country,IRELAND,Ireland,3,6572.64,C4: Ireland-led (6)
+country,MALAYSIA,Malaysia,1,6274.87,C1: Mexico-led (10)
+country,VENEZUELA,Venezuela,0,4840.15,C5: Venezuela-led (6)
+country,UNITED KINGDOM,United Kingdom,4,4448.82,C3: Japan-led (7)
+country,SWITZERLAND,Switzerland,3,4108.26,C4: Ireland-led (6)
+country,ISRAEL,Israel,3,3317.97,C4: Ireland-led (6)
+country,ITALY,Italy,3,2979.2,C4: Ireland-led (6)
+country,GUYANA,Guyana,0,2643.54,C5: Venezuela-led (6)
+country,SAUDI ARABIA,Saudi Arabia,0,2578.61,C5: Venezuela-led (6)
+country,FRANCE,France,3,2389.55,C4: Ireland-led (6)
+country,SINGAPORE,Singapore,3,2375.4,C4: Ireland-led (6)
+country,HUNGARY,Hungary,1,2188.72,C1: Mexico-led (10)
+country,SLOVAKIA,Slovakia,4,1995.52,C3: Japan-led (7)
+country,COLOMBIA,Colombia,0,1860.42,C5: Venezuela-led (6)
+country,SWEDEN,Sweden,4,1705.16,C3: Japan-led (7)
+country,ECUADOR,Ecuador,0,1404.04,C5: Venezuela-led (6)
+country,PHILIPPINES,Philippines,1,1332.78,C1: Mexico-led (10)
+country,BRAZIL,Brazil,0,1315.66,C5: Venezuela-led (6)
+country,AUSTRIA,Austria,4,1097.39,C3: Japan-led (7)
+country,CZECH REPUBLIC,Czech Republic,1,1034.98,C1: Mexico-led (10)

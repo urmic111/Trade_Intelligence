@@ -1,0 +1,12 @@
+sheet,csv_file,rows,columns
+Data_Ingestion_Log,Data_Ingestion_Log.csv,8,"dataset_key,dataset_name,url,source,fetched_at_utc,status,source_mode,row_count,schema_notes"
+Cleaned_Data_Summary,Cleaned_Data_Summary.csv,5,"table,original_rows,cleaned_rows,rows_removed,n_columns,columns,normalization_steps,missing_value_notes"
+Anomalies,Anomalies.csv,7,"date,hs_code,commodity,metric,value,z_score,direction,severity_score,baseline_mean,notes"
+Forecasts,Forecasts.csv,192,"hs_code,commodity,forecast_date,horizon_month,forecast_import_usd_m,lower_80,upper_80,model,historical_12m_import_usd_m"
+Clusters,Clusters.csv,38,"entity_type,entity_id,entity_name,cluster,total_import_12m_usd_m,cluster_label"
+Risk_Scores,Risk_Scores.csv,8,"hs_code,commodity,critical,top_supplier,top_supplier_share_pct,dependency_score_0_100,geo_risk_factor,geopolitical_flag,total_effective_duty_pct,tariff_sensitive,tariff_risk_0_100,avg_event_severity,n_events,disruption_risk_0_100,port_congestion_indicator,composite_risk_0_100,risk_tier"
+Insights_Narrative,Insights_Narrative.csv,10,"section,narrative,generated_at_utc"
+Recommendations,Recommendations.csv,10,"priority,audience,theme,hs_code,commodity,recommendation,expected_impact"
+Visualizations_Data,Visualizations_Data.csv,154,"chart,series,x,y,hs_code,commodity"
+Port_Risk,Port_Risk.csv,10,"port,avg_congestion,avg_dwell_days,avg_vessel_queue,teu_throughput,port_congestion_score_0_100,bottleneck_flag"
+Dependency_Detail,Dependency_Detail.csv,8,"hs_code,commodity,critical,top_supplier,top_supplier_share_pct,top3_share_pct,hhi,n_suppliers,import_12m_usd_m,dependency_score_0_100,risk_tier"

@@ -1,0 +1,1104 @@
+{
+  "kpis": {
+    "critical": 0,
+    "elevated": 1,
+    "anomalies": 7,
+    "avg_dependency": 41.9,
+    "max_port": 53.1,
+    "recommendations": 10,
+    "commodities": 8,
+    "ports": 10
+  },
+  "risk": [
+    {
+      "label": "Petroleum Gases",
+      "commodity": "Petroleum Gases",
+      "composite_risk_0_100": 61.2,
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 94.79,
+      "risk_tier": "Elevated",
+      "critical": true
+    },
+    {
+      "label": "Electronic Integrated Circuits",
+      "commodity": "Electronic Integrated Circuits",
+      "composite_risk_0_100": 52.2,
+      "top_supplier": "TAIWAN",
+      "top_supplier_share_pct": 38.06,
+      "risk_tier": "Moderate",
+      "critical": true
+    },
+    {
+      "label": "Crude Petroleum Oils",
+      "commodity": "Crude Petroleum Oils",
+      "composite_risk_0_100": 46.9,
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 62.11,
+      "risk_tier": "Moderate",
+      "critical": true
+    },
+    {
+      "label": "Telephone Sets & Network Equipment",
+      "commodity": "Telephone Sets & Network Equipment",
+      "composite_risk_0_100": 33.9,
+      "top_supplier": "VIETNAM",
+      "top_supplier_share_pct": 23.83,
+      "risk_tier": "Low",
+      "critical": true
+    },
+    {
+      "label": "Motor Vehicle Parts",
+      "commodity": "Motor Vehicle Parts",
+      "composite_risk_0_100": 32.9,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 43.57,
+      "risk_tier": "Low",
+      "critical": false
+    },
+    {
+      "label": "Automatic Data Processing Machines",
+      "commodity": "Automatic Data Processing Machines",
+      "composite_risk_0_100": 32.0,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 36.13,
+      "risk_tier": "Low",
+      "critical": true
+    },
+    {
+      "label": "Medicaments Packaged",
+      "commodity": "Medicaments Packaged",
+      "composite_risk_0_100": 27.9,
+      "top_supplier": "IRELAND",
+      "top_supplier_share_pct": 16.15,
+      "risk_tier": "Low",
+      "critical": true
+    },
+    {
+      "label": "Motor Cars & Vehicles",
+      "commodity": "Motor Cars & Vehicles",
+      "composite_risk_0_100": 24.5,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 22.33,
+      "risk_tier": "Low",
+      "critical": false
+    }
+  ],
+  "ports": [
+    {
+      "port": "Long Beach",
+      "port_congestion_score_0_100": 53.1,
+      "avg_dwell_days": 7.673333333333333,
+      "avg_congestion": 0.612,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Los Angeles",
+      "port_congestion_score_0_100": 44.3,
+      "avg_dwell_days": 7.143333333333334,
+      "avg_congestion": 0.5143333333333333,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Oakland",
+      "port_congestion_score_0_100": 43.4,
+      "avg_dwell_days": 6.52,
+      "avg_congestion": 0.478,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Seattle",
+      "port_congestion_score_0_100": 42.3,
+      "avg_dwell_days": 6.836666666666666,
+      "avg_congestion": 0.4983333333333334,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Norfolk",
+      "port_congestion_score_0_100": 37.3,
+      "avg_dwell_days": 6.193333333333332,
+      "avg_congestion": 0.4346666666666667,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Houston",
+      "port_congestion_score_0_100": 36.5,
+      "avg_dwell_days": 6.493333333333333,
+      "avg_congestion": 0.4136666666666666,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Savannah",
+      "port_congestion_score_0_100": 33.8,
+      "avg_dwell_days": 5.95,
+      "avg_congestion": 0.3606666666666667,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Miami",
+      "port_congestion_score_0_100": 32.0,
+      "avg_dwell_days": 5.786666666666666,
+      "avg_congestion": 0.356,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "New York/Newark",
+      "port_congestion_score_0_100": 26.5,
+      "avg_dwell_days": 5.100000000000001,
+      "avg_congestion": 0.2666666666666667,
+      "bottleneck_flag": false
+    },
+    {
+      "port": "Charleston",
+      "port_congestion_score_0_100": 24.9,
+      "avg_dwell_days": 4.986666666666667,
+      "avg_congestion": 0.2426666666666667,
+      "bottleneck_flag": false
+    }
+  ],
+  "anomalies": [
+    {
+      "date": "2026-03",
+      "label": "Automatic Data Proces\u2026 (drop)",
+      "commodity": "Automatic Data Processing Machines",
+      "direction": "drop",
+      "z_score": -9.946,
+      "severity_score": 10.0
+    },
+    {
+      "date": "2026-06",
+      "label": "Telephone Sets & Netw\u2026 (spike)",
+      "commodity": "Telephone Sets & Network Equipment",
+      "direction": "spike",
+      "z_score": 7.766,
+      "severity_score": 10.0
+    },
+    {
+      "date": "2026-05",
+      "label": "Petroleum Gases (drop)",
+      "commodity": "Petroleum Gases",
+      "direction": "drop",
+      "z_score": -1.301,
+      "severity_score": 8.33
+    },
+    {
+      "date": "2026-03",
+      "label": "Motor Cars & Vehicles (spike)",
+      "commodity": "Motor Cars & Vehicles",
+      "direction": "spike",
+      "z_score": 3.666,
+      "severity_score": 5.5
+    },
+    {
+      "date": "2026-06",
+      "label": "Electronic Integrated\u2026 (spike)",
+      "commodity": "Electronic Integrated Circuits",
+      "direction": "spike",
+      "z_score": 3.386,
+      "severity_score": 5.08
+    },
+    {
+      "date": "2026-03",
+      "label": "Crude Petroleum Oils (drop)",
+      "commodity": "Crude Petroleum Oils",
+      "direction": "drop",
+      "z_score": -3.277,
+      "severity_score": 4.92
+    },
+    {
+      "date": "2026-03",
+      "label": "Medicaments Packaged (drop)",
+      "commodity": "Medicaments Packaged",
+      "direction": "drop",
+      "z_score": -2.293,
+      "severity_score": 3.44
+    }
+  ],
+  "forecasts": [
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 34768.32,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 34670.31,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 34648.03,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 34642.96,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 34641.81,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 34641.55,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 34641.49,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 34641.48,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 34641.47,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 34641.47,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 34641.47,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Automatic Data Processing Machines",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 34641.47,
+      "horizon_month": 12
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 14938.14,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 14952.49,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 14959.85,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 14963.64,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 14965.58,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 14966.57,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 14967.08,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 14967.35,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 14967.48,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 14967.55,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 14967.59,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Crude Petroleum Oils",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 14967.6,
+      "horizon_month": 12
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 6825.27,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 6829.24,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 6831.58,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 6832.96,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 6833.78,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 6834.26,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 6834.54,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 6834.71,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 6834.81,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 6834.86,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 6834.9,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Medicaments Packaged",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 6834.92,
+      "horizon_month": 12
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 15045.22,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 15161.0,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 15122.51,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 15135.3,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 15131.05,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 15132.46,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 15131.99,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 15132.15,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 15132.1,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 15132.12,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 15132.11,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Motor Cars & Vehicles",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 15132.11,
+      "horizon_month": 12
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 7281.38,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 6964.73,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 7281.34,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 6964.77,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 7281.3,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 6964.81,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 7281.26,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 6964.85,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 7281.22,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 6964.89,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 7281.18,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Motor Vehicle Parts",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 6964.93,
+      "horizon_month": 12
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-07-01",
+      "forecast_import_usd_m": 16977.84,
+      "horizon_month": 1
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-08-01",
+      "forecast_import_usd_m": 17173.94,
+      "horizon_month": 2
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-09-01",
+      "forecast_import_usd_m": 17025.9,
+      "horizon_month": 3
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-10-01",
+      "forecast_import_usd_m": 17137.66,
+      "horizon_month": 4
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-11-01",
+      "forecast_import_usd_m": 17053.29,
+      "horizon_month": 5
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2026-12-01",
+      "forecast_import_usd_m": 17116.98,
+      "horizon_month": 6
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-01-01",
+      "forecast_import_usd_m": 17068.9,
+      "horizon_month": 7
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-02-01",
+      "forecast_import_usd_m": 17105.2,
+      "horizon_month": 8
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-03-01",
+      "forecast_import_usd_m": 17077.8,
+      "horizon_month": 9
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-04-01",
+      "forecast_import_usd_m": 17098.48,
+      "horizon_month": 10
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-05-01",
+      "forecast_import_usd_m": 17082.87,
+      "horizon_month": 11
+    },
+    {
+      "commodity": "Telephone Sets & Network Equipment",
+      "forecast_date": "2027-06-01",
+      "forecast_import_usd_m": 17094.66,
+      "horizon_month": 12
+    }
+  ],
+  "dependency": [
+    {
+      "label": "Petroleum Gases \u00b7 CANADA",
+      "commodity": "Petroleum Gases",
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 94.79,
+      "dependency_score_0_100": 100.0,
+      "risk_tier": "Critical"
+    },
+    {
+      "label": "Crude Petroleum Oils \u00b7 CANADA",
+      "commodity": "Crude Petroleum Oils",
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 62.11,
+      "dependency_score_0_100": 64.0,
+      "risk_tier": "Elevated"
+    },
+    {
+      "label": "Automatic Data Processing\u2026 \u00b7 MEXICO",
+      "commodity": "Automatic Data Processing Machines",
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 36.13,
+      "dependency_score_0_100": 39.2,
+      "risk_tier": "Moderate"
+    },
+    {
+      "label": "Electronic Integrated Cir\u2026 \u00b7 TAIWAN",
+      "commodity": "Electronic Integrated Circuits",
+      "top_supplier": "TAIWAN",
+      "top_supplier_share_pct": 38.06,
+      "dependency_score_0_100": 36.7,
+      "risk_tier": "Moderate"
+    },
+    {
+      "label": "Motor Vehicle Parts \u00b7 MEXICO",
+      "commodity": "Motor Vehicle Parts",
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 43.57,
+      "dependency_score_0_100": 35.4,
+      "risk_tier": "Moderate"
+    },
+    {
+      "label": "Telephone Sets & Network \u2026 \u00b7 VIETNAM",
+      "commodity": "Telephone Sets & Network Equipment",
+      "top_supplier": "VIETNAM",
+      "top_supplier_share_pct": 23.83,
+      "dependency_score_0_100": 24.6,
+      "risk_tier": "Low"
+    },
+    {
+      "label": "Motor Cars & Vehicles \u00b7 MEXICO",
+      "commodity": "Motor Cars & Vehicles",
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 22.33,
+      "dependency_score_0_100": 19.6,
+      "risk_tier": "Low"
+    },
+    {
+      "label": "Medicaments Packaged \u00b7 IRELAND",
+      "commodity": "Medicaments Packaged",
+      "top_supplier": "IRELAND",
+      "top_supplier_share_pct": 16.15,
+      "dependency_score_0_100": 15.9,
+      "risk_tier": "Low"
+    }
+  ],
+  "recs": [
+    {
+      "priority": 1,
+      "audience": "Policymakers",
+      "theme": "Critical Commodity Diversification",
+      "commodity": "Petroleum Gases",
+      "recommendation": "Reduce single-supplier reliance on CANADA (94.79% of imports) for Petroleum Gases. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
+      "expected_impact": "Lower geopolitical & supply shock exposure"
+    },
+    {
+      "priority": 2,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Petroleum Gases",
+      "recommendation": "Effective duty ~40.41% on Petroleum Gases. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 3,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Electronic Integrated Circuits",
+      "recommendation": "Effective duty ~28.06% on Electronic Integrated Circuits. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 4,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Crude Petroleum Oils",
+      "recommendation": "Effective duty ~24.23% on Crude Petroleum Oils. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 5,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Telephone Sets & Network Equipment",
+      "recommendation": "Effective duty ~29.08% on Telephone Sets & Network Equipment. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 6,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Motor Vehicle Parts",
+      "recommendation": "Effective duty ~23.87% on Motor Vehicle Parts. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 7,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Automatic Data Processing Machines",
+      "recommendation": "Investigate drop in Automatic Data Processing Machines on 2026-03-01 (z=-9.946). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 8,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Telephone Sets & Network Equipment",
+      "recommendation": "Investigate spike in Telephone Sets & Network Equipment on 2026-06-01 (z=7.766). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 9,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Petroleum Gases",
+      "recommendation": "Investigate drop in Petroleum Gases on 2026-05-01 (z=-1.301). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 10,
+      "audience": "Policymakers",
+      "theme": "Industrial Base Monitoring",
+      "commodity": NaN,
+      "recommendation": "Establish a recurring Trade Flow Intelligence dashboard refreshed weekly, with automated alerts when dependency_score \u226575 or port congestion \u226560.",
+      "expected_impact": "Institutionalize continuous situational awareness"
+    }
+  ],
+  "insights": [
+    {
+      "section": "Executive Overview",
+      "narrative": "Trade Flow Intelligence Agent run completed at 2026-08-09 21:02 UTC. Ingested 8 dataset sources (4 live API, 4 synthetic/fallback). Analysis covers country\u00d7commodity trade flows, port congestion, tariff exposure, anomaly detection, ARIMA forecasts, behavioral clustering, and composite supply-chain risk scores."
+    },
+    {
+      "section": "Data Quality Assessment",
+      "narrative": "Primary analytics use a unified monthly trade table with normalized HS4 codes and country names. Where Census/BEA/BTS API keys or endpoints were unavailable, deterministic synthetic series preserving realistic seasonality, shocks, and supplier concentration patterns were used. Live keys (CENSUS_API_KEY, BEA_API_KEY) will upgrade ingestion on subsequent runs."
+    },
+    {
+      "section": "Anomaly Findings",
+      "narrative": "Detected 7 statistical anomalies (|z|\u22652.5) in monthly import values. Highest-severity events: Automatic Data Processing Machines (drop, z=-9.946, severity=10.0); Telephone Sets & Network Equipment (spike, z=7.766, severity=10.0); Petroleum Gases (drop, z=-1.301, severity=8.33); Motor Cars & Vehicles (spike, z=3.666, severity=5.5); Electronic Integrated Circuits (spike, z=3.386, severity=5.08)."
+    },
+    {
+      "section": "Supply Chain & Geopolitical Risk",
+      "narrative": "1 critical commodities score Elevated/Critical on the composite risk index. Top exposures: Petroleum Gases (supplier=CANADA, share=94.79%, risk=61.2); Electronic Integrated Circuits (supplier=TAIWAN, share=38.06%, risk=52.2); Crude Petroleum Oils (supplier=CANADA, share=62.11%, risk=46.9); Telephone Sets & Network Equipment (supplier=VIETNAM, share=23.83%, risk=33.9); Motor Vehicle Parts (supplier=MEXICO, share=43.57%, risk=32.9). Geopolitical flags highlight reliance on high-watchlist partners for semiconductors, critical minerals, and energy-related flows."
+    },
+    {
+      "section": "Port Congestion Bottlenecks",
+      "narrative": "West Coast gateways show elevated congestion in the latest 3-month window. No ports exceeded the bottleneck threshold."
+    },
+    {
+      "section": "Forecast Outlook",
+      "narrative": "ARIMA(1,1,1) 12-month import/export forecasts were produced for the top 8 commodities by trailing-12-month import value. Policymakers should monitor forecast bands for crude petroleum, electronics, and medicaments where confidence intervals widen under recent volatility."
+    },
+    {
+      "section": "Emerging Trade Opportunities",
+      "narrative": "Commodities with the strongest projected import demand growth (proxy for market opportunity / sourcing need): Telephone Sets & Network Equipment (0.7%); Motor Cars & Vehicles (0.6%); Electronic Integrated Circuits (0.5%); Crude Petroleum Oils (0.2%); Medicaments Packaged (0.1%). Export-side clusters with diversified partners present near-term commercial expansion potential."
+    },
+    {
+      "section": "Clustering Interpretation",
+      "narrative": "K-means identified 5 country clusters and 5 commodity clusters based on 12-month import profiles. Clusters separate high-tech East Asian suppliers, North American nearshoring partners, and commodity/energy exporters \u2014 useful for differentiated trade and industrial-policy targeting."
+    },
+    {
+      "section": "Tariff Sensitivity",
+      "narrative": "8 commodities are flagged tariff-sensitive (effective duty \u226510%). Combined Section 301 and MFN exposure raises landed-cost risk for electronics, batteries, and selected industrial inputs \u2014 relevant for duty mitigation and FTA utilization."
+    },
+    {
+      "section": "Next Iteration Plan",
+      "narrative": "1) Attach live Census & BEA API keys for production freshness. 2) Incorporate real ITC HTS extracts and BTS port AIS dwell metrics. 3) Extend forecasts with Prophet/LSTM ensembles and scenario stress tests. 4) Add firm-level bill-of-materials dependency for critical minerals. 5) Schedule weekly autonomous refresh with anomaly alerting."
+    }
+  ],
+  "clusters_country": [
+    {
+      "entity_name": "Mexico",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 85929.37
+    },
+    {
+      "entity_name": "Taiwan",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 60521.91
+    },
+    {
+      "entity_name": "Canada",
+      "cluster_label": "C2: Canada",
+      "total_import_12m_usd_m": 52797.65
+    },
+    {
+      "entity_name": "Vietnam",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 31770.16
+    },
+    {
+      "entity_name": "Thailand",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 28453.15
+    },
+    {
+      "entity_name": "Japan",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 16354.2
+    },
+    {
+      "entity_name": "India",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 15261.93
+    },
+    {
+      "entity_name": "South Korea",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 14590.88
+    },
+    {
+      "entity_name": "China",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 13771.61
+    },
+    {
+      "entity_name": "Germany",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 10443.89
+    },
+    {
+      "entity_name": "Ireland",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 6572.64
+    },
+    {
+      "entity_name": "Malaysia",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 6274.87
+    },
+    {
+      "entity_name": "Venezuela",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 4840.15
+    },
+    {
+      "entity_name": "United Kingdom",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 4448.82
+    },
+    {
+      "entity_name": "Switzerland",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 4108.26
+    },
+    {
+      "entity_name": "Israel",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 3317.97
+    },
+    {
+      "entity_name": "Italy",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 2979.2
+    },
+    {
+      "entity_name": "Guyana",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 2643.54
+    },
+    {
+      "entity_name": "Saudi Arabia",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 2578.61
+    },
+    {
+      "entity_name": "France",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 2389.55
+    }
+  ],
+  "hist": [
+    {
+      "series": "Crude Petroleum Oils",
+      "x": "2026-03-01",
+      "y": 12459.877465
+    },
+    {
+      "series": "Crude Petroleum Oils",
+      "x": "2026-04-01",
+      "y": 13893.659486
+    },
+    {
+      "series": "Crude Petroleum Oils",
+      "x": "2026-05-01",
+      "y": 15156.298648
+    },
+    {
+      "series": "Crude Petroleum Oils",
+      "x": "2026-06-01",
+      "y": 14910.17907
+    },
+    {
+      "series": "Petroleum Gases",
+      "x": "2026-03-01",
+      "y": 1364.934269
+    },
+    {
+      "series": "Petroleum Gases",
+      "x": "2026-04-01",
+      "y": 930.702943
+    },
+    {
+      "series": "Petroleum Gases",
+      "x": "2026-05-01",
+      "y": 620.414704
+    },
+    {
+      "series": "Petroleum Gases",
+      "x": "2026-06-01",
+      "y": 768.6274249999999
+    },
+    {
+      "series": "Medicaments Packaged",
+      "x": "2026-03-01",
+      "y": 6144.479094
+    },
+    {
+      "series": "Medicaments Packaged",
+      "x": "2026-04-01",
+      "y": 6486.3176
+    },
+    {
+      "series": "Medicaments Packaged",
+      "x": "2026-05-01",
+      "y": 7037.612699
+    },
+    {
+      "series": "Medicaments Packaged",
+      "x": "2026-06-01",
+      "y": 6818.536268
+    },
+    {
+      "series": "Automatic Data Processing Machines",
+      "x": "2026-03-01",
+      "y": 32613.158623
+    },
+    {
+      "series": "Automatic Data Processing Machines",
+      "x": "2026-04-01",
+      "y": 35262.741625
+    },
+    {
+      "series": "Automatic Data Processing Machines",
+      "x": "2026-05-01",
+      "y": 35711.744148
+    },
+    {
+      "series": "Automatic Data Processing Machines",
+      "x": "2026-06-01",
+      "y": 35199.413826
+    },
+    {
+      "series": "Telephone Sets & Network Equipment",
+      "x": "2026-03-01",
+      "y": 14671.273115
+    },
+    {
+      "series": "Telephone Sets & Network Equipment",
+      "x": "2026-04-01",
+      "y": 15223.915972
+    },
+    {
+      "series": "Telephone Sets & Network Equipment",
+      "x": "2026-05-01",
+      "y": 15092.333377
+    },
+    {
+      "series": "Telephone Sets & Network Equipment",
+      "x": "2026-06-01",
+      "y": 17237.599999
+    },
+    {
+      "series": "Electronic Integrated Circuits",
+      "x": "2026-03-01",
+      "y": 4684.700629
+    },
+    {
+      "series": "Electronic Integrated Circuits",
+      "x": "2026-04-01",
+      "y": 4396.721767
+    },
+    {
+      "series": "Electronic Integrated Circuits",
+      "x": "2026-05-01",
+      "y": 4476.331643
+    },
+    {
+      "series": "Electronic Integrated Circuits",
+      "x": "2026-06-01",
+      "y": 5022.811092
+    },
+    {
+      "series": "Motor Cars & Vehicles",
+      "x": "2026-03-01",
+      "y": 16487.803848
+    },
+    {
+      "series": "Motor Cars & Vehicles",
+      "x": "2026-04-01",
+      "y": 14608.94208
+    },
+    {
+      "series": "Motor Cars & Vehicles",
+      "x": "2026-05-01",
+      "y": 15100.9718
+    },
+    {
+      "series": "Motor Cars & Vehicles",
+      "x": "2026-06-01",
+      "y": 15393.486649
+    },
+    {
+      "series": "Motor Vehicle Parts",
+      "x": "2026-03-01",
+      "y": 7411.711043
+    },
+    {
+      "series": "Motor Vehicle Parts",
+      "x": "2026-04-01",
+      "y": 7100.175643
+    },
+    {
+      "series": "Motor Vehicle Parts",
+      "x": "2026-05-01",
+      "y": 7355.540300000001
+    },
+    {
+      "series": "Motor Vehicle Parts",
+      "x": "2026-06-01",
+      "y": 6964.690873
+    }
+  ]
+}

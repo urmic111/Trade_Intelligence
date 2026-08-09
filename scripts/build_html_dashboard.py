@@ -35,21 +35,31 @@ def load_payload(csv_dir: Path = CSV_DIR) -> dict:
     ports = pd.read_csv(csv_dir / "Port_Risk.csv").sort_values(
         "port_congestion_score_0_100", ascending=False
     )
-    anom = pd.read_csv(csv_dir / "Anomalies.csv").sort_values(
-        "severity_score", ascending=False
-    )
+    anom = pd.read_csv(csv_dir / "Anomalies.csv")
+    if "severity_score" in anom.columns:
+        anom = anom.sort_values("severity_score", ascending=False)
+    else:
+        anom = pd.DataFrame(
+            columns=["date", "label", "commodity", "direction", "z_score", "severity_score"]
+        )
     fc = pd.read_csv(csv_dir / "Forecasts.csv")
-    fc = fc[fc["model"].astype(str) == "ARIMA(1,1,1)"].copy()
-    top = fc.groupby("hs_code")["historical_12m_import_usd_m"].first().nlargest(6).index
-    fc = fc[fc["hs_code"].isin(top)].sort_values(["commodity", "forecast_date"])
-    dep = pd.read_csv(csv_dir / "Dependency_Detail.csv").sort_values(
-        "dependency_score_0_100", ascending=False
-    )
+    if "model" in fc.columns:
+        fc = fc[fc["model"].astype(str) == "ARIMA(1,1,1)"].copy()
+    if not fc.empty and "hs_code" in fc.columns:
+        top = fc.groupby("hs_code")["historical_12m_import_usd_m"].first().nlargest(6).index
+        fc = fc[fc["hs_code"].isin(top)].sort_values(["commodity", "forecast_date"])
+    dep = pd.read_csv(csv_dir / "Dependency_Detail.csv")
+    if "dependency_score_0_100" in dep.columns:
+        dep = dep.sort_values("dependency_score_0_100", ascending=False)
     recs = pd.read_csv(csv_dir / "Recommendations.csv")
     insights = pd.read_csv(csv_dir / "Insights_Narrative.csv")
     clusters = pd.read_csv(csv_dir / "Clusters.csv")
     viz = pd.read_csv(csv_dir / "Visualizations_Data.csv")
-    hist = viz[viz["chart"] == "line_top10_imports"].copy()
+    hist = (
+        viz[viz["chart"] == "line_top10_imports"].copy()
+        if "chart" in viz.columns
+        else pd.DataFrame(columns=["series", "x", "y"])
+    )
 
     def short(s: str, n: int = 34) -> str:
         s = str(s)
@@ -58,9 +68,21 @@ def load_payload(csv_dir: Path = CSV_DIR) -> dict:
     risk = risk.copy()
     risk["label"] = risk["commodity"].map(lambda x: short(x))
     dep = dep.copy()
-    dep["label"] = dep["commodity"].map(lambda x: short(x))
+    dep["label"] = dep.apply(
+        lambda r: f"{short(r['commodity'], 26)} · {short(r.get('top_supplier', ''), 18)}",
+        axis=1,
+    )
     anom = anom.copy()
-    anom["label"] = anom["commodity"].map(lambda x: short(x, 28))
+    if not anom.empty:
+        anom["date"] = pd.to_datetime(anom["date"], errors="coerce")
+        anom["label"] = anom.apply(
+            lambda r: f"{short(r['commodity'], 22)} ({r.get('direction', '?')})",
+            axis=1,
+        )
+        anom["date_str"] = anom["date"].dt.strftime("%Y-%m")
+    else:
+        anom["label"] = pd.Series(dtype=str)
+        anom["date_str"] = pd.Series(dtype=str)
 
     return {
         "kpis": {
@@ -95,9 +117,13 @@ def load_payload(csv_dir: Path = CSV_DIR) -> dict:
                 "bottleneck_flag",
             ]
         ].to_dict("records"),
-        "anomalies": anom[
-            ["date", "label", "commodity", "direction", "z_score", "severity_score"]
-        ].to_dict("records"),
+        "anomalies": (
+            anom[["date_str", "label", "commodity", "direction", "z_score", "severity_score"]]
+            .rename(columns={"date_str": "date"})
+            .to_dict("records")
+            if not anom.empty
+            else []
+        ),
         "forecasts": fc[
             ["commodity", "forecast_date", "forecast_import_usd_m", "horizon_month"]
         ].to_dict("records"),
@@ -119,9 +145,12 @@ def load_payload(csv_dir: Path = CSV_DIR) -> dict:
         .head(12)
         .to_dict("records"),
         "insights": insights[["section", "narrative"]].to_dict("records"),
-        "clusters_country": clusters[clusters["entity_type"] == "country"][
+        "clusters_country": clusters[clusters["entity_type"] == "country"]
+        .sort_values("total_import_12m_usd_m", ascending=False)[
             ["entity_name", "cluster_label", "total_import_12m_usd_m"]
-        ].to_dict("records"),
+        ]
+        .head(20)
+        .to_dict("records"),
         "hist": hist[["series", "x", "y"]].to_dict("records"),
     }
 
@@ -419,34 +448,61 @@ function forecastChart() {{
 }}
 
 function depChart() {{
-  const rows = [...DATA.dependency].slice(0, 12).reverse();
+  const rows = [...DATA.dependency]
+    .filter(r => r.top_supplier && !String(r.top_supplier).toUpperCase().includes('TOTAL'))
+    .sort((a, b) => (b.top_supplier_share_pct || 0) - (a.top_supplier_share_pct || 0))
+    .slice(0, 12)
+    .reverse();
   Plotly.newPlot('depChart', [{{
     type: 'bar', orientation: 'h',
     y: rows.map(r => r.label),
     x: rows.map(r => r.top_supplier_share_pct),
-    marker: {{ color: '#1f4e79' }},
-    text: rows.map(r => r.top_supplier),
-    hovertemplate: '%{{y}}<br>Share: %{{x}}%<br>Supplier: %{{text}}<extra></extra>',
+    marker: {{ color: rows.map(r => (r.top_supplier_share_pct >= 40 ? '#9f1239' : r.top_supplier_share_pct >= 25 ? '#b45309' : '#1f4e79')) }},
+    text: rows.map(r => `${{Number(r.top_supplier_share_pct).toFixed(1)}}%`),
+    textposition: 'outside',
+    cliponaxis: false,
+    customdata: rows.map(r => [r.top_supplier, r.commodity]),
+    hovertemplate: '%{{customdata[1]}}<br>Top supplier: %{{customdata[0]}}<br>Share: %{{x:.1f}}%<extra></extra>',
   }}], {{
     ...layoutBase,
-    xaxis: {{ title: 'Top supplier share (%)' }},
+    margin: {{ l: 160, r: 56, t: 10, b: 40 }},
+    xaxis: {{ title: 'Top supplier share (%)', range: [0, Math.max(50, Math.ceil(Math.max(...rows.map(r => r.top_supplier_share_pct || 0)) / 5) * 5 + 5)] }},
     yaxis: {{ automargin: true }},
   }}, {{responsive: true, displayModeBar: false}});
 }}
 
 function anomChart() {{
-  const rows = DATA.anomalies;
+  const rows = [...(DATA.anomalies || [])]
+    .sort((a, b) => (b.severity_score || 0) - (a.severity_score || 0))
+    .slice(0, 12);
+  if (!rows.length) {{
+    Plotly.newPlot('anomChart', [{{
+      type: 'scatter', mode: 'text',
+      x: [0.5], y: [0.5],
+      text: ['No anomalies above threshold in current window'],
+      textposition: 'middle center',
+      hoverinfo: 'skip',
+      marker: {{ size: 1, opacity: 0 }},
+    }}], {{
+      ...layoutBase,
+      xaxis: {{ visible: false, range: [0, 1] }},
+      yaxis: {{ visible: false, range: [0, 1] }},
+      margin: {{ l: 20, r: 20, t: 20, b: 20 }},
+    }}, {{responsive: true, displayModeBar: false}});
+    return;
+  }}
   Plotly.newPlot('anomChart', [{{
     type: 'bar',
     x: rows.map(r => r.label),
     y: rows.map(r => r.severity_score),
     marker: {{ color: rows.map(r => r.direction === 'spike' ? '#b45309' : '#9f1239') }},
-    hovertemplate: '%{{x}}<br>Severity: %{{y}}<extra></extra>',
+    customdata: rows.map(r => [r.date || '', r.direction || '', r.z_score, r.commodity]),
+    hovertemplate: '%{{customdata[3]}}<br>%{{customdata[0]}} · %{{customdata[1]}}<br>Severity: %{{y:.1f}}<br>Holdout z: %{{customdata[2]:.2f}}<extra></extra>',
   }}], {{
     ...layoutBase,
-    margin: {{ l: 40, r: 10, t: 10, b: 90 }},
-    xaxis: {{ tickangle: -30, title: 'Commodity' }},
-    yaxis: {{ title: 'Severity' }},
+    margin: {{ l: 48, r: 10, t: 10, b: 100 }},
+    xaxis: {{ tickangle: -28, title: 'Commodity (direction)' }},
+    yaxis: {{ title: 'Severity (0–10)', range: [0, Math.max(10, Math.ceil(Math.max(...rows.map(r => r.severity_score || 0)) + 1))] }},
   }}, {{responsive: true, displayModeBar: false}});
 }}
 
@@ -474,17 +530,31 @@ function histChart() {{
 }}
 
 function clusterChart() {{
-  const rows = [...DATA.clusters_country].sort((a,b) => b.total_import_12m_usd_m - a.total_import_12m_usd_m).slice(0, 10);
-  Plotly.newPlot('clusterChart', [{{
+  const rows = [...DATA.clusters_country]
+    .sort((a, b) => (b.total_import_12m_usd_m || 0) - (a.total_import_12m_usd_m || 0))
+    .slice(0, 15);
+  const palette = ['#1f4e79', '#0e7c7b', '#b45309', '#9f1239', '#5b6577', '#3f6f8c'];
+  const clusterOrder = [];
+  rows.forEach(r => {{
+    if (!clusterOrder.includes(r.cluster_label)) clusterOrder.push(r.cluster_label);
+  }});
+  const countries = rows.map(r => r.entity_name);
+  const traces = clusterOrder.map((lab, i) => ({{
     type: 'bar',
-    x: rows.map(r => r.entity_name),
-    y: rows.map(r => r.total_import_12m_usd_m),
-    marker: {{ color: '#0e7c7b' }},
-    text: rows.map(r => r.cluster_label),
-    hovertemplate: '%{{x}}<br>%{{y:,.0f}} USD m<br>%{{text}}<extra></extra>',
-  }}], {{
+    name: lab,
+    x: countries,
+    y: countries.map(c => {{
+      const hit = rows.find(r => r.entity_name === c && r.cluster_label === lab);
+      return hit ? hit.total_import_12m_usd_m : 0;
+    }}),
+    marker: {{ color: palette[i % palette.length] }},
+    hovertemplate: '%{{x}}<br>%{{y:,.0f}} USD m<br>%{{fullData.name}}<extra></extra>',
+  }}));
+  Plotly.newPlot('clusterChart', traces, {{
     ...layoutBase,
-    margin: {{ l: 50, r: 10, t: 10, b: 80 }},
+    barmode: 'stack',
+    margin: {{ l: 56, r: 10, t: 10, b: 90 }},
+    legend: {{ orientation: 'h', y: -0.42, font: {{ size: 11 }} }},
     xaxis: {{ tickangle: -35, title: 'Country' }},
     yaxis: {{ title: '12m imports (USD m)' }},
   }}, {{responsive: true, displayModeBar: false}});
