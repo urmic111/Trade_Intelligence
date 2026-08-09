@@ -40,6 +40,33 @@ python scripts/build_dashboard.py
 This converts each report sheet to `outputs/csv/*.csv`, then builds
 `outputs/Trade_Flow_Dashboard.xlsx` (KPI tiles + charts) from those CSVs.
 
+### CSV → HTML dashboard (recommended)
+
+```bash
+python scripts/build_html_dashboard.py
+```
+
+Writes:
+- `outputs/dashboard/Trade_Flow_Dashboard.html`
+- `docs/index.html` (GitHub Pages source)
+
+### GitHub Pages
+
+The live dashboard is published from the `docs/` folder:
+
+**https://urmic111.github.io/Trade_Intelligence/**
+
+After refreshing data, rebuild HTML and push `docs/index.html` to update the site.
+
+### CSV → Tableau dashboard
+
+```bash
+python scripts/build_tableau_dashboard.py
+```
+
+Builds `outputs/tableau/Trade_Flow_Dashboard.twbx` with Hyper extracts.
+See `outputs/tableau/HOW_TO_OPEN.md` if Tableau Public grays out the file.
+
 ### Optional live APIs
 
 ```bash
