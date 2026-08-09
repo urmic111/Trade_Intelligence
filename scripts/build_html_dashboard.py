@@ -35,21 +35,31 @@ def load_payload(csv_dir: Path = CSV_DIR) -> dict:
     ports = pd.read_csv(csv_dir / "Port_Risk.csv").sort_values(
         "port_congestion_score_0_100", ascending=False
     )
-    anom = pd.read_csv(csv_dir / "Anomalies.csv").sort_values(
-        "severity_score", ascending=False
-    )
+    anom = pd.read_csv(csv_dir / "Anomalies.csv")
+    if "severity_score" in anom.columns:
+        anom = anom.sort_values("severity_score", ascending=False)
+    else:
+        anom = pd.DataFrame(
+            columns=["date", "label", "commodity", "direction", "z_score", "severity_score"]
+        )
     fc = pd.read_csv(csv_dir / "Forecasts.csv")
-    fc = fc[fc["model"].astype(str) == "ARIMA(1,1,1)"].copy()
-    top = fc.groupby("hs_code")["historical_12m_import_usd_m"].first().nlargest(6).index
-    fc = fc[fc["hs_code"].isin(top)].sort_values(["commodity", "forecast_date"])
-    dep = pd.read_csv(csv_dir / "Dependency_Detail.csv").sort_values(
-        "dependency_score_0_100", ascending=False
-    )
+    if "model" in fc.columns:
+        fc = fc[fc["model"].astype(str) == "ARIMA(1,1,1)"].copy()
+    if not fc.empty and "hs_code" in fc.columns:
+        top = fc.groupby("hs_code")["historical_12m_import_usd_m"].first().nlargest(6).index
+        fc = fc[fc["hs_code"].isin(top)].sort_values(["commodity", "forecast_date"])
+    dep = pd.read_csv(csv_dir / "Dependency_Detail.csv")
+    if "dependency_score_0_100" in dep.columns:
+        dep = dep.sort_values("dependency_score_0_100", ascending=False)
     recs = pd.read_csv(csv_dir / "Recommendations.csv")
     insights = pd.read_csv(csv_dir / "Insights_Narrative.csv")
     clusters = pd.read_csv(csv_dir / "Clusters.csv")
     viz = pd.read_csv(csv_dir / "Visualizations_Data.csv")
-    hist = viz[viz["chart"] == "line_top10_imports"].copy()
+    hist = (
+        viz[viz["chart"] == "line_top10_imports"].copy()
+        if "chart" in viz.columns
+        else pd.DataFrame(columns=["series", "x", "y"])
+    )
 
     def short(s: str, n: int = 34) -> str:
         s = str(s)

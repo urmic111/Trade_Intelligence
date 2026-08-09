@@ -1,26 +1,9 @@
 hs_code,commodity,critical,top_supplier,top_supplier_share_pct,dependency_score_0_100,geo_risk_factor,geopolitical_flag,total_effective_duty_pct,tariff_sensitive,tariff_risk_0_100,avg_event_severity,n_events,disruption_risk_0_100,port_congestion_indicator,composite_risk_0_100,risk_tier
-2804,"Hydrogen, Rare Gases, Silicon",True,China,36.23,100,0.85,True,29.93,True,59.9,9.1,1,58.6,53.1,81.4,Critical
-8112,"Beryllium, Chromium, Germanium etc.",True,China,45.02,100,0.85,True,31.92,True,63.8,0.0,0,0.0,53.1,76.1,Critical
-2601,Iron Ores & Concentrates,True,South Korea,7.89,100,0.3,False,38.1,True,76.2,8.0,1,52.0,53.1,69.4,Elevated
-8542,Electronic Integrated Circuits,True,South Korea,39.26,100,0.3,False,28.06,True,56.1,9.9,1,63.4,53.1,67.6,Elevated
-2709,Crude Petroleum Oils,True,South Korea,8.02,100,0.3,False,24.23,True,48.5,6.233333333333333,3,49.4,53.1,65.0,Elevated
-2711,Petroleum Gases,True,South Korea,8.24,100,0.3,False,40.41,True,80.8,0.0,0,0.0,53.1,64.9,Elevated
-2844,Radioactive Chemical Elements,True,Canada,37.71,100,0.15,False,32.53,True,65.1,8.5,2,59.0,53.1,64.7,Elevated
-8507,Electric Accumulators,True,South Korea,34.57,100,0.3,False,21.13,True,42.3,6.7,1,44.2,53.1,63.6,Elevated
-1005,Maize (Corn),False,France,7.61,100,0.3,False,19.93,True,39.9,6.5,1,43.0,53.1,63.1,Elevated
-8517,Telephone Sets & Network Equipment,True,France,7.43,100,0.3,False,29.08,True,58.2,0.0,0,0.0,53.1,61.5,Elevated
-7208,Flat-Rolled Iron/Steel,False,South Korea,8.12,100,0.3,False,23.17,True,46.3,2.2,1,17.2,53.1,61.5,Elevated
-3004,Medicaments Packaged,True,South Korea,7.91,100,0.3,False,29.06,True,58.1,0.0,0,0.0,53.1,61.5,Elevated
-8802,Aircraft & Spacecraft,True,South Korea,7.94,100,0.3,False,28.66,True,57.3,0.0,0,0.0,53.1,61.4,Elevated
-9018,Medical Instruments,True,South Korea,7.88,100,0.3,False,17.79,True,35.6,4.8,1,32.8,53.1,61.4,Elevated
-8708,Motor Vehicle Parts,False,South Korea,7.94,100,0.3,False,23.87,True,47.7,0.0,0,0.0,53.1,60.0,Elevated
-1201,Soya Beans,False,South Korea,8.16,100,0.3,False,22.52,True,45.0,0.0,0,0.0,53.1,59.6,Elevated
-6109,T-shirts & Singlets,False,South Korea,7.69,100,0.3,False,5.09,False,10.2,8.0,1,52.0,53.1,59.5,Elevated
-2902,Cyclic Hydrocarbons,False,South Korea,7.59,100,0.3,False,17.89,True,35.8,0.0,0,0.0,53.1,58.2,Elevated
-8703,Motor Cars & Vehicles,False,South Korea,8.09,100,0.3,False,10.14,True,20.3,2.7,1,20.2,53.1,57.9,Elevated
-2615,"Niobium, Tantalum, Vanadium Ores",True,Canada,44.17,100,0.15,False,17.09,True,34.2,5.4,1,36.4,53.1,57.8,Elevated
-8471,Automatic Data Processing Machines,True,South Korea,8.12,100,0.3,False,15.95,True,31.9,0.0,0,0.0,53.1,57.6,Elevated
-3901,Polymers of Ethylene,False,France,7.78,100,0.3,False,13.66,True,27.3,0.0,0,0.0,53.1,56.9,Elevated
-8504,Electrical Transformers,False,South Korea,8.04,100,0.3,False,7.21,False,14.4,0.0,0,0.0,53.1,55.0,Elevated
-7108,Gold Unwrought,False,South Korea,8.14,100,0.3,False,0.49,False,1.0,2.0,1,16.0,53.1,54.6,Moderate
-9401,Seats,False,South Korea,7.74,100,0.3,False,2.18,False,4.4,0.0,0,0.0,53.1,53.5,Moderate
+8542,Electronic Integrated Circuits,True,TOTAL FOR ALL COUNTRIES,18.62,100,0.3,False,28.06,True,56.1,9.9,1,63.4,53.1,67.6,Elevated
+2709,Crude Petroleum Oils,True,TOTAL FOR ALL COUNTRIES,16.35,100,0.3,False,24.23,True,48.5,6.233333333333333,3,49.4,53.1,65.0,Elevated
+2711,Petroleum Gases,True,TOTAL FOR ALL COUNTRIES,14.45,100,0.3,False,40.41,True,80.8,0.0,0,0.0,53.1,64.9,Elevated
+3004,Medicaments Packaged,True,TOTAL FOR ALL COUNTRIES,18.38,100,0.3,False,29.06,True,58.1,0.0,0,0.0,53.1,61.5,Elevated
+8517,Telephone Sets & Network Equipment,True,TOTAL FOR ALL COUNTRIES,19.79,100,0.3,False,29.08,True,58.2,0.0,0,0.0,53.1,61.5,Elevated
+8708,Motor Vehicle Parts,False,TOTAL FOR ALL COUNTRIES,14.6,100,0.3,False,23.87,True,47.7,0.0,0,0.0,53.1,60.0,Elevated
+8703,Motor Cars & Vehicles,False,TOTAL FOR ALL COUNTRIES,14.95,100,0.3,False,10.14,True,20.3,2.7,1,20.2,53.1,57.9,Elevated
+8471,Automatic Data Processing Machines,True,TOTAL FOR ALL COUNTRIES,16.3,100,0.3,False,15.95,True,31.9,0.0,0,0.0,53.1,57.6,Elevated

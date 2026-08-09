@@ -12,3 +12,6 @@ python-dateutil>=2.8.0
 tenacity>=8.2.0
 pyyaml>=6.0
 tqdm>=4.66.0
+pantab>=5.0.0
+pyarrow>=14.0.0
+python-dotenv>=1.0.0

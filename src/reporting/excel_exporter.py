@@ -63,11 +63,27 @@ def export_workbook(sheets: dict[str, pd.DataFrame], path: Path | None = None) -
         "Visualizations_Data",
     ]
 
+    empty_schemas = {
+        "Anomalies": [
+            "date",
+            "hs_code",
+            "commodity",
+            "metric",
+            "value",
+            "z_score",
+            "direction",
+            "severity_score",
+            "baseline_mean",
+            "notes",
+        ],
+    }
+
     with pd.ExcelWriter(out, engine="openpyxl") as writer:
         for name in ordered:
-            df = sheets.get(name, pd.DataFrame({"note": ["No data"]}))
+            df = sheets.get(name, pd.DataFrame())
             if df is None or df.empty:
-                df = pd.DataFrame({"note": ["No records for this sheet"]})
+                cols = empty_schemas.get(name)
+                df = pd.DataFrame(columns=cols) if cols else pd.DataFrame({"note": []})
             # Excel sheet name limit 31
             safe = name[:31]
             df.to_excel(writer, sheet_name=safe, index=False)
