@@ -25,12 +25,51 @@ COUNTRY_ALIASES = {
     "taiwan, province of china": "Taiwan",
 }
 
+# Census geographic aggregates / trade blocs — not real supplier countries
+AGGREGATE_PARTNERS = frozenset(
+    {
+        "TOTAL FOR ALL COUNTRIES",
+        "AFRICA",
+        "ASIA",
+        "EUROPE",
+        "NORTH AMERICA",
+        "SOUTH AMERICA",
+        "CENTRAL AMERICA",
+        "AUSTRALIA AND OCEANIA",
+        "EURO AREA",
+        "EUROPEAN UNION",
+        "APEC",
+        "ASEAN",
+        "CACM",
+        "CAFTA-DR",
+        "LAFTA",
+        "NATO",
+        "OECD",
+        "PACIFIC RIM COUNTRIES",
+        "TWENTY LATIN AMERICAN REPUBLICS",
+        "USMCA (NAFTA)",
+        "WORLD",
+    }
+)
+
 
 def normalize_country(name: str) -> str:
     if not isinstance(name, str):
         return str(name)
     key = name.strip().lower()
     return COUNTRY_ALIASES.get(key, name.strip().title() if name.islower() else name.strip())
+
+
+def is_aggregate_partner(name: str) -> bool:
+    """True for Census region/bloc totals that must not enter supplier concentration."""
+    if not isinstance(name, str):
+        return True
+    key = name.strip().upper()
+    if key in AGGREGATE_PARTNERS:
+        return True
+    if key.startswith("TOTAL ") or key.endswith(" TOTAL"):
+        return True
+    return False
 
 
 def normalize_hs(code: Any) -> str:
@@ -64,6 +103,9 @@ def clean_unified_trade(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, Any]]
             out.loc[out[c] < 0, c] = 0.0
 
     out = out.drop_duplicates(subset=["date", "country", "hs_code"], keep="last")
+    before_agg = len(out)
+    out = out[~out["country"].map(is_aggregate_partner)].copy()
+    aggregates_removed = before_agg - len(out)
     out = out.sort_values(["date", "hs_code", "country"]).reset_index(drop=True)
 
     profile = {
@@ -71,6 +113,7 @@ def clean_unified_trade(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, Any]]
         "original_rows": original_rows,
         "cleaned_rows": len(out),
         "rows_removed": original_rows - len(out),
+        "aggregates_removed": aggregates_removed,
         "missing_before": missing_before,
         "missing_after": {c: int(out[c].isna().sum()) for c in numeric_cols if c in out.columns},
         "normalization_steps": [
@@ -80,6 +123,7 @@ def clean_unified_trade(df: pd.DataFrame) -> tuple[pd.DataFrame, dict[str, Any]]
             "numeric nulls filled with column median",
             "negative values clipped to 0",
             "deduplicated on date×country×hs_code",
+            "removed Census aggregate partners (regions/blocs/totals)",
         ],
         "columns": list(out.columns),
         "dtypes": {c: str(t) for c, t in out.dtypes.items()},
@@ -133,6 +177,7 @@ def build_country_commodity_matrix(trade: pd.DataFrame) -> pd.DataFrame:
     """Latest-12-month import totals by country × commodity."""
     latest = trade["date"].max()
     window = trade[trade["date"] > latest - pd.DateOffset(months=12)]
+    window = window[~window["country"].map(is_aggregate_partner)]
     mat = (
         window.groupby(["country", "hs_code", "commodity"], as_index=False)["import_value_usd_m"]
         .sum()

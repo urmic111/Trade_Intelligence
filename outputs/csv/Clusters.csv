@@ -1,250 +1,39 @@
 entity_type,entity_id,entity_name,cluster,total_import_12m_usd_m,cluster_label
-country,AFGHANISTAN,AFGHANISTAN,0,0.01,CountryCluster-0
-country,AFRICA,AFRICA,0,2361.27,CountryCluster-0
-country,ALBANIA,ALBANIA,0,0.2,CountryCluster-0
-country,ALGERIA,ALGERIA,0,151.09,CountryCluster-0
-country,ANDORRA,ANDORRA,0,0.09,CountryCluster-0
-country,ANGOLA,ANGOLA,0,138.22,CountryCluster-0
-country,ANGUILLA,ANGUILLA,0,0.0,CountryCluster-0
-country,ANTIGUA AND BARBUDA,ANTIGUA AND BARBUDA,0,0.0,CountryCluster-0
-country,APEC,APEC,1,315214.06,CountryCluster-1
-country,ARGENTINA,ARGENTINA,0,836.28,CountryCluster-0
-country,ARMENIA,ARMENIA,0,0.03,CountryCluster-0
-country,ARUBA,ARUBA,0,0.0,CountryCluster-0
-country,ASEAN,ASEAN,4,71063.56,CountryCluster-4
-country,ASIA,ASIA,3,198335.49,CountryCluster-3
-country,AUSTRALIA,AUSTRALIA,0,87.84,CountryCluster-0
-country,AUSTRALIA AND OCEANIA,AUSTRALIA AND OCEANIA,0,113.05,CountryCluster-0
-country,AUSTRIA,AUSTRIA,0,1097.39,CountryCluster-0
-country,AZERBAIJAN,AZERBAIJAN,0,0.01,CountryCluster-0
-country,BAHAMAS,BAHAMAS,0,0.0,CountryCluster-0
-country,BAHRAIN,BAHRAIN,0,0.0,CountryCluster-0
-country,BANGLADESH,BANGLADESH,0,6.34,CountryCluster-0
-country,BARBADOS,BARBADOS,0,0.04,CountryCluster-0
-country,BELARUS,BELARUS,0,0.0,CountryCluster-0
-country,BELGIUM,BELGIUM,0,555.86,CountryCluster-0
-country,BELIZE,BELIZE,0,0.0,CountryCluster-0
-country,BENIN,BENIN,0,0.0,CountryCluster-0
-country,BERMUDA,BERMUDA,0,0.15,CountryCluster-0
-country,BHUTAN,BHUTAN,0,0.0,CountryCluster-0
-country,BOLIVIA,BOLIVIA,0,0.0,CountryCluster-0
-country,BOSNIA AND HERZEGOVINA,BOSNIA AND HERZEGOVINA,0,1.78,CountryCluster-0
-country,BOTSWANA,BOTSWANA,0,0.12,CountryCluster-0
-country,BRAZIL,BRAZIL,0,1315.66,CountryCluster-0
-country,BRITISH INDIAN OCEAN TERRITORIES,BRITISH INDIAN OCEAN TERRITORIES,0,0.0,CountryCluster-0
-country,BRITISH VIRGIN ISLANDS,BRITISH VIRGIN ISLANDS,0,0.04,CountryCluster-0
-country,BRUNEI,BRUNEI,0,0.0,CountryCluster-0
-country,BULGARIA,BULGARIA,0,30.26,CountryCluster-0
-country,BURKINA FASO,BURKINA FASO,0,0.0,CountryCluster-0
-country,BURMA,BURMA,0,0.26,CountryCluster-0
-country,BURUNDI,BURUNDI,0,0.0,CountryCluster-0
-country,CABO VERDE,CABO VERDE,0,0.0,CountryCluster-0
-country,CACM,CACM,0,178.3,CountryCluster-0
-country,CAFTA-DR,CAFTA-DR,0,198.66,CountryCluster-0
-country,CAMBODIA,CAMBODIA,0,21.84,CountryCluster-0
-country,CAMEROON,CAMEROON,0,108.85,CountryCluster-0
-country,CANADA,CANADA,2,52797.65,CountryCluster-2
-country,CAYMAN ISLANDS,CAYMAN ISLANDS,0,6.36,CountryCluster-0
-country,CENTRAL AFRICAN REPUBLIC,CENTRAL AFRICAN REPUBLIC,0,0.0,CountryCluster-0
-country,CENTRAL AMERICA,CENTRAL AMERICA,0,708.95,CountryCluster-0
-country,CHAD,CHAD,0,0.0,CountryCluster-0
-country,CHILE,CHILE,0,6.47,CountryCluster-0
-country,CHINA,CHINA,0,13771.61,CountryCluster-0
-country,CHRISTMAS ISLAND,CHRISTMAS ISLAND,0,0.0,CountryCluster-0
-country,COLOMBIA,COLOMBIA,0,1860.42,CountryCluster-0
-country,COMOROS,COMOROS,0,0.0,CountryCluster-0
-country,CONGO,CONGO,0,0.0,CountryCluster-0
-country,COOK ISLANDS,COOK ISLANDS,0,3.8,CountryCluster-0
-country,COSTA RICA,COSTA RICA,0,154.07,CountryCluster-0
-country,COTE D'IVOIRE,COTE D'IVOIRE,0,1.98,CountryCluster-0
-country,CROATIA,CROATIA,0,54.8,CountryCluster-0
-country,CUBA,CUBA,0,0.0,CountryCluster-0
-country,CURACAO,CURACAO,0,0.05,CountryCluster-0
-country,CYPRUS,CYPRUS,0,1.17,CountryCluster-0
-country,CZECH REPUBLIC,CZECH REPUBLIC,0,1034.98,CountryCluster-0
-country,DEMOCRATIC REPUBLIC OF THE CONGO,DEMOCRATIC REPUBLIC OF THE CONGO,0,33.69,CountryCluster-0
-country,DENMARK,DENMARK,0,176.51,CountryCluster-0
-country,DJIBOUTI,DJIBOUTI,0,0.0,CountryCluster-0
-country,DOMINICA,DOMINICA,0,0.0,CountryCluster-0
-country,DOMINICAN REPUBLIC,DOMINICAN REPUBLIC,0,20.36,CountryCluster-0
-country,ECUADOR,ECUADOR,0,1404.04,CountryCluster-0
-country,EGYPT,EGYPT,0,0.14,CountryCluster-0
-country,EL SALVADOR,EL SALVADOR,0,5.87,CountryCluster-0
-country,EQUATORIAL GUINEA,EQUATORIAL GUINEA,0,12.29,CountryCluster-0
-country,ERITREA,ERITREA,0,0.0,CountryCluster-0
-country,ESTONIA,ESTONIA,0,133.53,CountryCluster-0
-country,ESWATINI,ESWATINI,0,0.0,CountryCluster-0
-country,ETHIOPIA,ETHIOPIA,0,3.08,CountryCluster-0
-country,EURO AREA,EURO AREA,0,28746.39,CountryCluster-0
-country,EUROPE,EUROPE,0,43425.5,CountryCluster-0
-country,EUROPEAN UNION,EUROPEAN UNION,0,34516.76,CountryCluster-0
-country,FAROE ISLANDS,FAROE ISLANDS,0,0.0,CountryCluster-0
-country,FIJI,FIJI,0,0.0,CountryCluster-0
-country,FINLAND,FINLAND,0,696.17,CountryCluster-0
-country,FRANCE,FRANCE,0,2389.55,CountryCluster-0
-country,FRENCH GUIANA,FRENCH GUIANA,0,0.0,CountryCluster-0
-country,FRENCH POLYNESIA,FRENCH POLYNESIA,0,0.0,CountryCluster-0
-country,GABON,GABON,0,29.52,CountryCluster-0
-country,GAMBIA,GAMBIA,0,0.0,CountryCluster-0
-country,GEORGIA,GEORGIA,0,0.79,CountryCluster-0
-country,GERMANY,GERMANY,0,10443.89,CountryCluster-0
-country,GHANA,GHANA,0,463.73,CountryCluster-0
-country,GIBRALTAR,GIBRALTAR,0,0.01,CountryCluster-0
-country,GREECE,GREECE,0,5.79,CountryCluster-0
-country,GREENLAND,GREENLAND,0,0.0,CountryCluster-0
-country,GRENADA,GRENADA,0,0.0,CountryCluster-0
-country,GUADELOUPE,GUADELOUPE,0,0.01,CountryCluster-0
-country,GUATEMALA,GUATEMALA,0,4.33,CountryCluster-0
-country,GUINEA,GUINEA,0,0.0,CountryCluster-0
-country,GUINEA-BISSAU,GUINEA-BISSAU,0,0.0,CountryCluster-0
-country,GUYANA,GUYANA,0,2643.54,CountryCluster-0
-country,HAITI,HAITI,0,0.01,CountryCluster-0
-country,HONDURAS,HONDURAS,0,13.75,CountryCluster-0
-country,HONG KONG,HONG KONG,0,67.49,CountryCluster-0
-country,HUNGARY,HUNGARY,0,2188.72,CountryCluster-0
-country,ICELAND,ICELAND,0,7.54,CountryCluster-0
-country,INDIA,INDIA,0,15261.93,CountryCluster-0
-country,INDONESIA,INDONESIA,0,829.29,CountryCluster-0
-country,IRAN,IRAN,0,0.0,CountryCluster-0
-country,IRAQ,IRAQ,0,723.59,CountryCluster-0
-country,IRELAND,IRELAND,0,6572.64,CountryCluster-0
-country,ISRAEL,ISRAEL,0,3317.97,CountryCluster-0
-country,ITALY,ITALY,0,2979.2,CountryCluster-0
-country,JAMAICA,JAMAICA,0,0.02,CountryCluster-0
-country,JAPAN,JAPAN,0,16354.2,CountryCluster-0
-country,JORDAN,JORDAN,0,18.01,CountryCluster-0
-country,KAZAKHSTAN,KAZAKHSTAN,0,0.43,CountryCluster-0
-country,KENYA,KENYA,0,0.0,CountryCluster-0
-country,KIRIBATI,KIRIBATI,0,0.0,CountryCluster-0
-country,KOSOVO,KOSOVO,0,0.01,CountryCluster-0
-country,KUWAIT,KUWAIT,0,31.84,CountryCluster-0
-country,KYRGYZSTAN,KYRGYZSTAN,0,0.13,CountryCluster-0
-country,LAFTA,LAFTA,4,96221.75,CountryCluster-4
-country,LAOS,LAOS,0,5.81,CountryCluster-0
-country,LATVIA,LATVIA,0,17.53,CountryCluster-0
-country,LEBANON,LEBANON,0,2.33,CountryCluster-0
-country,LESOTHO,LESOTHO,0,0.0,CountryCluster-0
-country,LIBERIA,LIBERIA,0,0.01,CountryCluster-0
-country,LIBYA,LIBYA,0,534.45,CountryCluster-0
-country,LIECHTENSTEIN,LIECHTENSTEIN,0,3.89,CountryCluster-0
-country,LITHUANIA,LITHUANIA,0,20.15,CountryCluster-0
-country,LUXEMBOURG,LUXEMBOURG,0,3.05,CountryCluster-0
-country,MACAU,MACAU,0,1.96,CountryCluster-0
-country,MACEDONIA,MACEDONIA,0,7.48,CountryCluster-0
-country,MADAGASCAR,MADAGASCAR,0,0.01,CountryCluster-0
-country,MALAWI,MALAWI,0,0.04,CountryCluster-0
-country,MALAYSIA,MALAYSIA,0,6274.87,CountryCluster-0
-country,MALDIVES,MALDIVES,0,0.04,CountryCluster-0
-country,MALI,MALI,0,0.07,CountryCluster-0
-country,MALTA,MALTA,0,18.09,CountryCluster-0
-country,MARSHALL ISLANDS,MARSHALL ISLANDS,0,0.02,CountryCluster-0
-country,MARTINIQUE,MARTINIQUE,0,0.0,CountryCluster-0
-country,MAURITANIA,MAURITANIA,0,0.0,CountryCluster-0
-country,MAURITIUS,MAURITIUS,0,0.04,CountryCluster-0
-country,MAYOTTE,MAYOTTE,0,0.0,CountryCluster-0
-country,MEXICO,MEXICO,4,85929.37,CountryCluster-4
-country,MICRONESIA,MICRONESIA,0,0.0,CountryCluster-0
-country,MOLDOVA,MOLDOVA,0,0.05,CountryCluster-0
-country,MONACO,MONACO,0,0.04,CountryCluster-0
-country,MONGOLIA,MONGOLIA,0,0.18,CountryCluster-0
-country,MONTENEGRO,MONTENEGRO,0,0.06,CountryCluster-0
-country,MONTSERRAT,MONTSERRAT,0,0.0,CountryCluster-0
-country,MOROCCO,MOROCCO,0,116.16,CountryCluster-0
-country,MOZAMBIQUE,MOZAMBIQUE,0,0.4,CountryCluster-0
-country,NAMIBIA,NAMIBIA,0,0.24,CountryCluster-0
-country,NATO,NATO,2,84376.17,CountryCluster-2
-country,NAURU,NAURU,0,0.0,CountryCluster-0
-country,NEPAL,NEPAL,0,0.02,CountryCluster-0
-country,NETHERLANDS,NETHERLANDS,0,248.8,CountryCluster-0
-country,NEW CALEDONIA,NEW CALEDONIA,0,0.0,CountryCluster-0
-country,NEW ZEALAND,NEW ZEALAND,0,21.35,CountryCluster-0
-country,NICARAGUA,NICARAGUA,0,0.28,CountryCluster-0
-country,NIGER,NIGER,0,0.01,CountryCluster-0
-country,NIGERIA,NIGERIA,0,531.51,CountryCluster-0
-country,NIUE,NIUE,0,0.0,CountryCluster-0
-country,NORTH AMERICA,NORTH AMERICA,2,138727.03,CountryCluster-2
-country,NORWAY,NORWAY,0,46.47,CountryCluster-0
-country,OECD,OECD,2,218150.61,CountryCluster-2
-country,OMAN,OMAN,0,0.94,CountryCluster-0
-country,PACIFIC RIM COUNTRIES,PACIFIC RIM COUNTRIES,3,116229.61,CountryCluster-3
-country,PAKISTAN,PAKISTAN,0,2.22,CountryCluster-0
-country,PALAU,PALAU,0,0.0,CountryCluster-0
-country,PANAMA,PANAMA,0,0.98,CountryCluster-0
-country,PAPUA NEW GUINEA,PAPUA NEW GUINEA,0,0.04,CountryCluster-0
-country,PARAGUAY,PARAGUAY,0,0.02,CountryCluster-0
-country,PERU,PERU,0,29.21,CountryCluster-0
-country,PHILIPPINES,PHILIPPINES,0,1332.78,CountryCluster-0
-country,POLAND,POLAND,0,431.35,CountryCluster-0
-country,PORTUGAL,PORTUGAL,0,421.24,CountryCluster-0
-country,QATAR,QATAR,0,0.0,CountryCluster-0
-country,REUNION,REUNION,0,0.01,CountryCluster-0
-country,ROMANIA,ROMANIA,0,233.64,CountryCluster-0
-country,RUSSIA,RUSSIA,0,0.39,CountryCluster-0
-country,RWANDA,RWANDA,0,1.11,CountryCluster-0
-country,SAMOA,SAMOA,0,0.0,CountryCluster-0
-country,SAN MARINO,SAN MARINO,0,0.01,CountryCluster-0
-country,SAO TOME AND PRINCIPE,SAO TOME AND PRINCIPE,0,0.0,CountryCluster-0
-country,SAUDI ARABIA,SAUDI ARABIA,0,2578.61,CountryCluster-0
-country,SENEGAL,SENEGAL,0,0.23,CountryCluster-0
-country,SERBIA,SERBIA,0,29.41,CountryCluster-0
-country,SEYCHELLES,SEYCHELLES,0,0.01,CountryCluster-0
-country,SIERRA LEONE,SIERRA LEONE,0,0.03,CountryCluster-0
-country,SINGAPORE,SINGAPORE,0,2375.4,CountryCluster-0
-country,SINT MAARTEN,SINT MAARTEN,0,0.0,CountryCluster-0
-country,SLOVAKIA,SLOVAKIA,0,1995.52,CountryCluster-0
-country,SLOVENIA,SLOVENIA,0,672.63,CountryCluster-0
-country,SOLOMON ISLANDS,SOLOMON ISLANDS,0,0.0,CountryCluster-0
-country,SOMALIA,SOMALIA,0,0.0,CountryCluster-0
-country,SOUTH AFRICA,SOUTH AFRICA,0,228.63,CountryCluster-0
-country,SOUTH AMERICA,SOUTH AMERICA,0,12936.42,CountryCluster-0
-country,SOUTH SUDAN,SOUTH SUDAN,0,0.0,CountryCluster-0
-country,SPAIN,SPAIN,0,389.15,CountryCluster-0
-country,SRI LANKA,SRI LANKA,0,3.25,CountryCluster-0
-country,ST HELENA,ST HELENA,0,0.0,CountryCluster-0
-country,ST KITTS AND NEVIS,ST KITTS AND NEVIS,0,0.08,CountryCluster-0
-country,ST LUCIA,ST LUCIA,0,0.02,CountryCluster-0
-country,ST VINCENT AND THE GRENADINES,ST VINCENT AND THE GRENADINES,0,0.01,CountryCluster-0
-country,SUDAN,SUDAN,0,0.0,CountryCluster-0
-country,SURINAME,SURINAME,0,0.51,CountryCluster-0
-country,SWEDEN,SWEDEN,0,1705.16,CountryCluster-0
-country,SWITZERLAND,SWITZERLAND,0,4108.26,CountryCluster-0
-country,SYRIA,SYRIA,0,0.0,CountryCluster-0
-country,South Korea,South Korea,0,14590.88,CountryCluster-0
-country,TAIWAN,TAIWAN,4,60521.91,CountryCluster-4
-country,TAJIKISTAN,TAJIKISTAN,0,0.0,CountryCluster-0
-country,TANZANIA,TANZANIA,0,0.0,CountryCluster-0
-country,THAILAND,THAILAND,0,28453.15,CountryCluster-0
-country,TIMOR-LESTE,TIMOR-LESTE,0,0.0,CountryCluster-0
-country,TOGO,TOGO,0,0.0,CountryCluster-0
-country,TONGA,TONGA,0,0.01,CountryCluster-0
-country,TOTAL FOR ALL COUNTRIES,TOTAL FOR ALL COUNTRIES,1,396607.71,CountryCluster-1
-country,TRINIDAD AND TOBAGO,TRINIDAD AND TOBAGO,0,502.45,CountryCluster-0
-country,TUNISIA,TUNISIA,0,5.48,CountryCluster-0
-country,TURKEY,TURKEY,0,240.48,CountryCluster-0
-country,TURKMENISTAN,TURKMENISTAN,0,0.0,CountryCluster-0
-country,TURKS AND CAICOS ISLANDS,TURKS AND CAICOS ISLANDS,0,0.05,CountryCluster-0
-country,TWENTY LATIN AMERICAN REPUBLICS,TWENTY LATIN AMERICAN REPUBLICS,4,96421.41,CountryCluster-4
-country,UGANDA,UGANDA,0,0.0,CountryCluster-0
-country,UKRAINE,UKRAINE,0,12.31,CountryCluster-0
-country,UNITED ARAB EMIRATES,UNITED ARAB EMIRATES,0,16.58,CountryCluster-0
-country,UNITED KINGDOM,UNITED KINGDOM,0,4448.82,CountryCluster-0
-country,URUGUAY,URUGUAY,0,0.11,CountryCluster-0
-country,USMCA (NAFTA),USMCA (NAFTA),2,138727.03,CountryCluster-2
-country,UZBEKISTAN,UZBEKISTAN,0,0.06,CountryCluster-0
-country,VANUATU,VANUATU,0,0.0,CountryCluster-0
-country,VATICAN CITY,VATICAN CITY,0,0.0,CountryCluster-0
-country,VENEZUELA,VENEZUELA,0,4840.15,CountryCluster-0
-country,VIETNAM,VIETNAM,0,31770.16,CountryCluster-0
-country,WALLIS AND FUTUNA,WALLIS AND FUTUNA,0,0.0,CountryCluster-0
-country,WEST BANK ADMINISTERED BY ISRAEL,WEST BANK ADMINISTERED BY ISRAEL,0,0.0,CountryCluster-0
-country,YEMEN,YEMEN,0,0.0,CountryCluster-0
-country,ZAMBIA,ZAMBIA,0,0.08,CountryCluster-0
-country,ZIMBABWE,ZIMBABWE,0,0.02,CountryCluster-0
-commodity,2709,Crude Petroleum Oils,3,345158.59,CommodityCluster-3
-commodity,2711,Petroleum Gases,0,25493.79,CommodityCluster-0
-commodity,3004,Medicaments Packaged,0,144097.85,CommodityCluster-0
-commodity,8471,Automatic Data Processing Machines,1,851391.04,CommodityCluster-1
-commodity,8517,Telephone Sets & Network Equipment,2,314466.73,CommodityCluster-2
-commodity,8542,Electronic Integrated Circuits,0,99777.43,CommodityCluster-0
-commodity,8703,Motor Cars & Vehicles,0,412019.44,CommodityCluster-0
-commodity,8708,Motor Vehicle Parts,4,197462.56,CommodityCluster-4
+commodity,8471,Automatic Data Processing Machines,2,138373.69,Commodity: Automatic Data Processing Machines
+commodity,8703,Motor Cars & Vehicles,3,61043.23,Commodity: Motor Cars & Vehicles
+commodity,8517,Telephone Sets & Network Equipment,0,60918.44,Commodity: Telephone Sets & Network Equipment
+commodity,2709,Crude Petroleum Oils,1,52380.63,Commodity: Crude Petroleum Oils
+commodity,8708,Motor Vehicle Parts,0,27833.44,Commodity: Telephone Sets & Network Equipment
+commodity,3004,Medicaments Packaged,4,23874.52,Commodity: Medicaments Packaged
+commodity,8542,Electronic Integrated Circuits,0,18336.94,Commodity: Telephone Sets & Network Equipment
+commodity,2711,Petroleum Gases,0,3597.55,Commodity: Telephone Sets & Network Equipment
+country,MEXICO,Mexico,1,85929.37,C1: Mexico-led (10)
+country,TAIWAN,Taiwan,1,60521.91,C1: Mexico-led (10)
+country,CANADA,Canada,2,52797.65,C2: Canada
+country,VIETNAM,Vietnam,1,31770.16,C1: Mexico-led (10)
+country,THAILAND,Thailand,1,28453.15,C1: Mexico-led (10)
+country,JAPAN,Japan,4,16354.2,C3: Japan-led (7)
+country,INDIA,India,1,15261.93,C1: Mexico-led (10)
+country,South Korea,South Korea,4,14590.88,C3: Japan-led (7)
+country,CHINA,China,1,13771.61,C1: Mexico-led (10)
+country,GERMANY,Germany,4,10443.89,C3: Japan-led (7)
+country,IRELAND,Ireland,3,6572.64,C4: Ireland-led (6)
+country,MALAYSIA,Malaysia,1,6274.87,C1: Mexico-led (10)
+country,VENEZUELA,Venezuela,0,4840.15,C5: Venezuela-led (6)
+country,UNITED KINGDOM,United Kingdom,4,4448.82,C3: Japan-led (7)
+country,SWITZERLAND,Switzerland,3,4108.26,C4: Ireland-led (6)
+country,ISRAEL,Israel,3,3317.97,C4: Ireland-led (6)
+country,ITALY,Italy,3,2979.2,C4: Ireland-led (6)
+country,GUYANA,Guyana,0,2643.54,C5: Venezuela-led (6)
+country,SAUDI ARABIA,Saudi Arabia,0,2578.61,C5: Venezuela-led (6)
+country,FRANCE,France,3,2389.55,C4: Ireland-led (6)
+country,SINGAPORE,Singapore,3,2375.4,C4: Ireland-led (6)
+country,HUNGARY,Hungary,1,2188.72,C1: Mexico-led (10)
+country,SLOVAKIA,Slovakia,4,1995.52,C3: Japan-led (7)
+country,COLOMBIA,Colombia,0,1860.42,C5: Venezuela-led (6)
+country,SWEDEN,Sweden,4,1705.16,C3: Japan-led (7)
+country,ECUADOR,Ecuador,0,1404.04,C5: Venezuela-led (6)
+country,PHILIPPINES,Philippines,1,1332.78,C1: Mexico-led (10)
+country,BRAZIL,Brazil,0,1315.66,C5: Venezuela-led (6)
+country,AUSTRIA,Austria,4,1097.39,C3: Japan-led (7)
+country,CZECH REPUBLIC,Czech Republic,1,1034.98,C1: Mexico-led (10)

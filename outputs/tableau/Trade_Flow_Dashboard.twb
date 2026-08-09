@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<workbook original-version='18.1' source-build='2024.1.0' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <preferences />
+  <datasources>
+  <datasource caption="Risk Scores" inline="true" name="ds.risk" version="18.1">
+    <connection class="hyper" dbname="Data/Risk_Scores.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Risk_Scores" table="[public].[Risk_Scores]" type="table" />
+    </connection>
+      <column caption="Hs Code" datatype="string" name="[hs_code]" role="dimension" type="nominal" />
+      <column caption="Commodity" datatype="string" name="[commodity]" role="dimension" type="nominal" />
+      <column caption="Critical" datatype="boolean" name="[critical]" role="dimension" type="nominal" />
+      <column caption="Top Supplier" datatype="string" name="[top_supplier]" role="dimension" type="nominal" />
+      <column caption="Top Supplier Share Pct" datatype="real" name="[top_supplier_share_pct]" role="measure" type="quantitative" />
+      <column caption="Dependency Score 0 100" datatype="integer" name="[dependency_score_0_100]" role="measure" type="quantitative" />
+      <column caption="Geo Risk Factor" datatype="real" name="[geo_risk_factor]" role="measure" type="quantitative" />
+      <column caption="Geopolitical Flag" datatype="boolean" name="[geopolitical_flag]" role="dimension" type="nominal" />
+      <column caption="Total Effective Duty Pct" datatype="real" name="[total_effective_duty_pct]" role="measure" type="quantitative" />
+      <column caption="Tariff Sensitive" datatype="boolean" name="[tariff_sensitive]" role="dimension" type="nominal" />
+      <column caption="Tariff Risk 0 100" datatype="real" name="[tariff_risk_0_100]" role="measure" type="quantitative" />
+      <column caption="Avg Event Severity" datatype="real" name="[avg_event_severity]" role="measure" type="quantitative" />
+      <column caption="N Events" datatype="integer" name="[n_events]" role="dimension" type="ordinal" />
+      <column caption="Disruption Risk 0 100" datatype="real" name="[disruption_risk_0_100]" role="measure" type="quantitative" />
+      <column caption="Port Congestion Indicator" datatype="real" name="[port_congestion_indicator]" role="measure" type="quantitative" />
+      <column caption="Composite Risk 0 100" datatype="real" name="[composite_risk_0_100]" role="measure" type="quantitative" />
+      <column caption="Risk Tier" datatype="string" name="[risk_tier]" role="dimension" type="nominal" />
+      <column caption="Commodity Short" datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Port Risk" inline="true" name="ds.ports" version="18.1">
+    <connection class="hyper" dbname="Data/Port_Risk.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Port_Risk" table="[public].[Port_Risk]" type="table" />
+    </connection>
+      <column caption="Port" datatype="string" name="[port]" role="dimension" type="nominal" />
+      <column caption="Avg Congestion" datatype="real" name="[avg_congestion]" role="measure" type="quantitative" />
+      <column caption="Avg Dwell Days" datatype="real" name="[avg_dwell_days]" role="measure" type="quantitative" />
+      <column caption="Avg Vessel Queue" datatype="real" name="[avg_vessel_queue]" role="measure" type="quantitative" />
+      <column caption="Teu Throughput" datatype="real" name="[teu_throughput]" role="measure" type="quantitative" />
+      <column caption="Port Congestion Score 0 100" datatype="real" name="[port_congestion_score_0_100]" role="measure" type="quantitative" />
+      <column caption="Bottleneck Flag" datatype="boolean" name="[bottleneck_flag]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Import Forecasts" inline="true" name="ds.forecasts" version="18.1">
+    <connection class="hyper" dbname="Data/Forecasts_Import.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Forecasts_Import" table="[public].[Forecasts_Import]" type="table" />
+    </connection>
+      <column caption="Hs Code" datatype="string" name="[hs_code]" role="dimension" type="nominal" />
+      <column caption="Commodity" datatype="string" name="[commodity]" role="dimension" type="nominal" />
+      <column caption="Forecast Date" datatype="date" name="[forecast_date]" role="dimension" type="ordinal" />
+      <column caption="Horizon Month" datatype="integer" name="[horizon_month]" role="dimension" type="ordinal" />
+      <column caption="Forecast Import Usd M" datatype="real" name="[forecast_import_usd_m]" role="measure" type="quantitative" />
+      <column caption="Lower 80" datatype="real" name="[lower_80]" role="measure" type="quantitative" />
+      <column caption="Upper 80" datatype="real" name="[upper_80]" role="measure" type="quantitative" />
+      <column caption="Model" datatype="string" name="[model]" role="dimension" type="nominal" />
+      <column caption="Historical 12M Import Usd M" datatype="real" name="[historical_12m_import_usd_m]" role="measure" type="quantitative" />
+      <column caption="Commodity Short" datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Anomalies" inline="true" name="ds.anomalies" version="18.1">
+    <connection class="hyper" dbname="Data/Anomalies.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Anomalies" table="[public].[Anomalies]" type="table" />
+    </connection>
+      <column caption="Date" datatype="date" name="[date]" role="dimension" type="ordinal" />
+      <column caption="Hs Code" datatype="string" name="[hs_code]" role="dimension" type="nominal" />
+      <column caption="Commodity" datatype="string" name="[commodity]" role="dimension" type="nominal" />
+      <column caption="Metric" datatype="string" name="[metric]" role="dimension" type="nominal" />
+      <column caption="Value" datatype="real" name="[value]" role="measure" type="quantitative" />
+      <column caption="Z Score" datatype="real" name="[z_score]" role="measure" type="quantitative" />
+      <column caption="Direction" datatype="string" name="[direction]" role="dimension" type="nominal" />
+      <column caption="Severity Score" datatype="real" name="[severity_score]" role="measure" type="quantitative" />
+      <column caption="Baseline Mean" datatype="real" name="[baseline_mean]" role="measure" type="quantitative" />
+      <column caption="Notes" datatype="string" name="[notes]" role="dimension" type="nominal" />
+      <column caption="Commodity Short" datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Clusters" inline="true" name="ds.clusters" version="18.1">
+    <connection class="hyper" dbname="Data/Clusters.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Clusters" table="[public].[Clusters]" type="table" />
+    </connection>
+      <column caption="Entity Type" datatype="string" name="[entity_type]" role="dimension" type="nominal" />
+      <column caption="Entity Id" datatype="string" name="[entity_id]" role="dimension" type="nominal" />
+      <column caption="Entity Name" datatype="string" name="[entity_name]" role="dimension" type="nominal" />
+      <column caption="Cluster" datatype="integer" name="[cluster]" role="dimension" type="ordinal" />
+      <column caption="Total Import 12M Usd M" datatype="real" name="[total_import_12m_usd_m]" role="measure" type="quantitative" />
+      <column caption="Cluster Label" datatype="string" name="[cluster_label]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Dependency Detail" inline="true" name="ds.dependency" version="18.1">
+    <connection class="hyper" dbname="Data/Dependency_Detail.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Dependency_Detail" table="[public].[Dependency_Detail]" type="table" />
+    </connection>
+      <column caption="Hs Code" datatype="string" name="[hs_code]" role="dimension" type="nominal" />
+      <column caption="Commodity" datatype="string" name="[commodity]" role="dimension" type="nominal" />
+      <column caption="Critical" datatype="boolean" name="[critical]" role="dimension" type="nominal" />
+      <column caption="Top Supplier" datatype="string" name="[top_supplier]" role="dimension" type="nominal" />
+      <column caption="Top Supplier Share Pct" datatype="real" name="[top_supplier_share_pct]" role="measure" type="quantitative" />
+      <column caption="Top3 Share Pct" datatype="real" name="[top3_share_pct]" role="measure" type="quantitative" />
+      <column caption="Hhi" datatype="real" name="[hhi]" role="measure" type="quantitative" />
+      <column caption="N Suppliers" datatype="integer" name="[n_suppliers]" role="dimension" type="ordinal" />
+      <column caption="Import 12M Usd M" datatype="real" name="[import_12m_usd_m]" role="measure" type="quantitative" />
+      <column caption="Dependency Score 0 100" datatype="integer" name="[dependency_score_0_100]" role="measure" type="quantitative" />
+      <column caption="Risk Tier" datatype="string" name="[risk_tier]" role="dimension" type="nominal" />
+      <column caption="Commodity Short" datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Recommendations" inline="true" name="ds.recs" version="18.1">
+    <connection class="hyper" dbname="Data/Recommendations.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Recommendations" table="[public].[Recommendations]" type="table" />
+    </connection>
+      <column caption="Priority" datatype="integer" name="[priority]" role="dimension" type="ordinal" />
+      <column caption="Audience" datatype="string" name="[audience]" role="dimension" type="nominal" />
+      <column caption="Theme" datatype="string" name="[theme]" role="dimension" type="nominal" />
+      <column caption="Hs Code" datatype="string" name="[hs_code]" role="dimension" type="nominal" />
+      <column caption="Commodity" datatype="string" name="[commodity]" role="dimension" type="nominal" />
+      <column caption="Recommendation" datatype="string" name="[recommendation]" role="dimension" type="nominal" />
+      <column caption="Expected Impact" datatype="string" name="[expected_impact]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="KPI Summary" inline="true" name="ds.kpi" version="18.1">
+    <connection class="hyper" dbname="Data/KPI_Summary.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="KPI_Summary" table="[public].[KPI_Summary]" type="table" />
+    </connection>
+      <column caption="Kpi Critical Risks" datatype="integer" name="[kpi_critical_risks]" role="measure" type="quantitative" />
+      <column caption="Kpi Elevated Risks" datatype="integer" name="[kpi_elevated_risks]" role="measure" type="quantitative" />
+      <column caption="Kpi Anomalies" datatype="integer" name="[kpi_anomalies]" role="measure" type="quantitative" />
+      <column caption="Kpi Avg Dependency" datatype="real" name="[kpi_avg_dependency]" role="measure" type="quantitative" />
+      <column caption="Kpi Max Port Score" datatype="real" name="[kpi_max_port_score]" role="measure" type="quantitative" />
+      <column caption="Kpi Commodities Forecasted" datatype="integer" name="[kpi_commodities_forecasted]" role="measure" type="quantitative" />
+      <column caption="Kpi Recommendations" datatype="integer" name="[kpi_recommendations]" role="measure" type="quantitative" />
+      <column caption="Kpi Bottleneck Ports" datatype="integer" name="[kpi_bottleneck_ports]" role="measure" type="quantitative" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  <datasource caption="Dashboard Facts" inline="true" name="ds.facts" version="18.1">
+    <connection class="hyper" dbname="Data/Dashboard_Facts.hyper" password="" schema="public" sslmode="" username="">
+      <relation name="Dashboard_Facts" table="[public].[Dashboard_Facts]" type="table" />
+    </connection>
+      <column caption="Domain" datatype="string" name="[domain]" role="dimension" type="nominal" />
+      <column caption="Entity" datatype="string" name="[entity]" role="dimension" type="nominal" />
+      <column caption="Category" datatype="string" name="[category]" role="dimension" type="nominal" />
+      <column caption="Metric" datatype="string" name="[metric]" role="dimension" type="nominal" />
+      <column caption="Value" datatype="real" name="[value]" role="measure" type="quantitative" />
+      <column caption="Detail" datatype="string" name="[detail]" role="dimension" type="nominal" />
+    <layout dim-ordering="alphabetic" measure-ordering="alphabetic" />
+  </datasource>
+  </datasources>
+  <worksheets>
+  <worksheet name="Composite Risk">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.risk" name="ds.risk" />
+        </datasources>
+        <datasource-dependencies datasource="ds.risk">
+          <column datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+          <column datatype="real" name="[composite_risk_0_100]" role="measure" type="quantitative" />
+          <column-instance column="[commodity_short]" derivation="None" name="[commodity_short]" pivot="key" type="nominal" />
+          <column-instance column="[composite_risk_0_100]" derivation="Sum" name="[sum:composite_risk_0_100:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="Composite Supply-Chain Risk" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Bar" />
+        </pane>
+      </panes>
+      <rows>[ds.risk].[commodity_short]</rows>
+      <cols>[ds.risk].[sum:composite_risk_0_100:qk]</cols>
+    </table>
+    <simple-id uuid="{C5E56D76-7741-472E-8A35-4ED6E069C6C4}" />
+  </worksheet>
+  <worksheet name="Port Congestion">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.ports" name="ds.ports" />
+        </datasources>
+        <datasource-dependencies datasource="ds.ports">
+          <column datatype="string" name="[port]" role="dimension" type="nominal" />
+          <column datatype="real" name="[port_congestion_score_0_100]" role="measure" type="quantitative" />
+          <column-instance column="[port]" derivation="None" name="[port]" pivot="key" type="nominal" />
+          <column-instance column="[port_congestion_score_0_100]" derivation="Sum" name="[sum:port_congestion_score_0_100:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="Port Congestion Scores" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Bar" />
+        </pane>
+      </panes>
+      <rows>[ds.ports].[port]</rows>
+      <cols>[ds.ports].[sum:port_congestion_score_0_100:qk]</cols>
+    </table>
+    <simple-id uuid="{AB3553D2-B10C-4C63-929B-0E7E2989E8B6}" />
+  </worksheet>
+  <worksheet name="Import Forecasts">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.forecasts" name="ds.forecasts" />
+        </datasources>
+        <datasource-dependencies datasource="ds.forecasts">
+          <column datatype="date" name="[forecast_date]" role="dimension" type="ordinal" />
+          <column datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+          <column datatype="real" name="[forecast_import_usd_m]" role="measure" type="quantitative" />
+          <column-instance column="[forecast_date]" derivation="None" name="[forecast_date]" pivot="key" type="ordinal" />
+          <column-instance column="[commodity_short]" derivation="None" name="[commodity_short]" pivot="key" type="nominal" />
+          <column-instance column="[forecast_import_usd_m]" derivation="Sum" name="[sum:forecast_import_usd_m:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="12-Month Import Forecast (USD m)" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Line" />
+          <encodings>
+            <color column="[ds.forecasts].[commodity_short]" />
+          </encodings>
+        </pane>
+      </panes>
+      <rows>[ds.forecasts].[sum:forecast_import_usd_m:qk]</rows>
+      <cols>[ds.forecasts].[forecast_date]</cols>
+    </table>
+    <simple-id uuid="{EB35E794-A252-4FEE-9B7E-138701A597CD}" />
+  </worksheet>
+  <worksheet name="Anomaly Severity">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.anomalies" name="ds.anomalies" />
+        </datasources>
+        <datasource-dependencies datasource="ds.anomalies">
+          <column datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+          <column datatype="real" name="[severity_score]" role="measure" type="quantitative" />
+          <column-instance column="[commodity_short]" derivation="None" name="[commodity_short]" pivot="key" type="nominal" />
+          <column-instance column="[severity_score]" derivation="Sum" name="[sum:severity_score:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="Anomaly Severity" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Bar" />
+        </pane>
+      </panes>
+      <rows>[ds.anomalies].[commodity_short]</rows>
+      <cols>[ds.anomalies].[sum:severity_score:qk]</cols>
+    </table>
+    <simple-id uuid="{E454DBDC-362D-45FE-8C3B-5D14C0D6967B}" />
+  </worksheet>
+  <worksheet name="Supplier Share">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.dependency" name="ds.dependency" />
+        </datasources>
+        <datasource-dependencies datasource="ds.dependency">
+          <column datatype="string" name="[commodity_short]" role="dimension" type="nominal" />
+          <column datatype="real" name="[top_supplier_share_pct]" role="measure" type="quantitative" />
+          <column-instance column="[commodity_short]" derivation="None" name="[commodity_short]" pivot="key" type="nominal" />
+          <column-instance column="[top_supplier_share_pct]" derivation="Sum" name="[sum:top_supplier_share_pct:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="Top Supplier Share %" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Bar" />
+        </pane>
+      </panes>
+      <rows>[ds.dependency].[commodity_short]</rows>
+      <cols>[ds.dependency].[sum:top_supplier_share_pct:qk]</cols>
+    </table>
+    <simple-id uuid="{BC4187C4-4BE4-4526-850B-42AF26A64523}" />
+  </worksheet>
+  <worksheet name="Fact Metrics">
+    <table>
+      <view>
+        <datasources>
+          <datasource caption="ds.facts" name="ds.facts" />
+        </datasources>
+        <datasource-dependencies datasource="ds.facts">
+          <column datatype="string" name="[entity]" role="dimension" type="nominal" />
+          <column datatype="real" name="[value]" role="measure" type="quantitative" />
+          <column-instance column="[entity]" derivation="None" name="[entity]" pivot="key" type="nominal" />
+          <column-instance column="[value]" derivation="Sum" name="[sum:value:qk]" pivot="key" type="quantitative" />
+        </datasource-dependencies>
+        <aggregation value="true" />
+      </view>
+      <style>
+        <style-rule element="worksheet">
+          <format attr="title" value="Unified Dashboard Facts" />
+        </style-rule>
+      </style>
+      <panes>
+        <pane selection-relaxation-option="selection-relaxation-allow">
+          <view><breakdown value="auto" /></view>
+          <mark class="Bar" />
+        </pane>
+      </panes>
+      <rows>[ds.facts].[entity]</rows>
+      <cols>[ds.facts].[sum:value:qk]</cols>
+    </table>
+    <simple-id uuid="{CDDB87CA-FE86-4F34-951F-0ED67095C874}" />
+  </worksheet>
+  </worksheets>
+  <dashboards>
+  <dashboard name="Executive Dashboard">
+    <size maxheight="1200" maxwidth="1600" minheight="900" minwidth="1200" sizing-mode="fixed" />
+    <zones>
+      <zone h="70000" id="1" type-v2="text" w="100000" x="0" y="0">
+        <formatted-text>
+          <run bold="true" fontcolor="#0B1F3A" fontsize="18">Trade Flow Intelligence — Executive Dashboard</run>
+          <run fontcolor="#4A5568" fontsize="11">  ·  Hyper extract sourced (Tableau Public compatible)</run>
+        </formatted-text>
+      </zone>
+      <zone h="430000" id="2" name="Composite Risk" type-v2="worksheet" w="50000" x="0" y="70000" />
+      <zone h="430000" id="3" name="Port Congestion" type-v2="worksheet" w="50000" x="50000" y="70000" />
+      <zone h="500000" id="4" name="Import Forecasts" type-v2="worksheet" w="50000" x="0" y="500000" />
+      <zone h="500000" id="5" name="Anomaly Severity" type-v2="worksheet" w="50000" x="50000" y="500000" />
+    </zones>
+    <simple-id uuid="{BF925DF4-D448-4DD1-B241-694D2AA8C583}" />
+  </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class="worksheet" name="Composite Risk" />
+    <window class="worksheet" name="Port Congestion" />
+    <window class="worksheet" name="Import Forecasts" />
+    <window class="worksheet" name="Anomaly Severity" />
+    <window class="worksheet" name="Supplier Share" />
+    <window class="worksheet" name="Fact Metrics" />
+    <window class="dashboard" name="Executive Dashboard" />
+  </windows>
+</workbook>

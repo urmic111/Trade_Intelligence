@@ -58,11 +58,24 @@ def compute_risk_scores(
         .agg(avg_event_severity=("severity_1_10", "mean"), n_events=("event_id", "count"))
     )
 
-    merged = dependency.merge(tariffs[["hs_code", "total_effective_duty_pct", "tariff_sensitive"]], on="hs_code", how="left")
-    merged = merged.merge(sc_by_hs, on="hs_code", how="left")
+    merged = dependency.copy()
+    tariffs_n = tariffs.copy()
+    sc_n = sc_by_hs.copy()
+    for frame in (merged, tariffs_n, sc_n):
+        frame["hs_code"] = frame["hs_code"].astype(str).str.replace(r"\.0$", "", regex=True).str.zfill(4)
+    merged = merged.merge(
+        tariffs_n[["hs_code", "total_effective_duty_pct", "tariff_sensitive"]],
+        on="hs_code",
+        how="left",
+    )
+    merged = merged.merge(sc_n, on="hs_code", how="left")
     merged["avg_event_severity"] = merged["avg_event_severity"].fillna(0)
     merged["n_events"] = merged["n_events"].fillna(0).astype(int)
-    merged["geo_risk_factor"] = merged["top_supplier"].map(GEOPOLITICAL_WATCHLIST).fillna(0.3)
+    # Live Census partners are often ALL CAPS; map watchlist case-insensitively
+    geo_lookup = {k.lower(): v for k, v in GEOPOLITICAL_WATCHLIST.items()}
+    merged["geo_risk_factor"] = (
+        merged["top_supplier"].astype(str).str.strip().str.lower().map(geo_lookup).fillna(0.3)
+    )
 
     merged["port_congestion_indicator"] = round(max_port, 1)
     merged["tariff_risk_0_100"] = (merged["total_effective_duty_pct"].fillna(0) / 50 * 100).clip(0, 100).round(1)

@@ -1,1 +1,8 @@
 date,hs_code,commodity,metric,value,z_score,direction,severity_score,baseline_mean,notes
+2026-03-01,8471,Automatic Data Processing Machines,import_value_usd_m,32613.16,-9.946,drop,10.0,35391.3,holdout |z|=9.95; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-06-01,8517,Telephone Sets & Network Equipment,import_value_usd_m,17237.6,7.766,spike,10.0,14995.84,holdout |z|=7.77; MoM +14.2%; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-05-01,2711,Petroleum Gases,import_value_usd_m,620.41,-1.301,drop,8.33,1021.42,MoM -33.3%; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-03-01,8703,Motor Cars & Vehicles,import_value_usd_m,16487.8,3.666,spike,5.5,15034.47,holdout |z|=3.67; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-06-01,8542,Electronic Integrated Circuits,import_value_usd_m,5022.81,3.386,spike,5.08,4519.25,holdout |z|=3.39; MoM +12.2%; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-03-01,2709,Crude Petroleum Oils,import_value_usd_m,12459.88,-3.277,drop,4.92,14653.38,holdout |z|=3.28; n=4; gate |z|≥2.0 or |MoM|≥12%
+2026-03-01,3004,Medicaments Packaged,import_value_usd_m,6144.48,-2.293,drop,3.44,6780.82,holdout |z|=2.29; n=4; gate |z|≥2.0 or |MoM|≥12%

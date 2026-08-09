@@ -1,9 +1,9 @@
 hs_code,commodity,critical,top_supplier,top_supplier_share_pct,top3_share_pct,hhi,n_suppliers,import_12m_usd_m,dependency_score_0_100,risk_tier
-2709,Crude Petroleum Oils,True,TOTAL FOR ALL COUNTRIES,16.35,38.8,0.1012,11,345158.59,100,Critical
-2711,Petroleum Gases,True,TOTAL FOR ALL COUNTRIES,14.45,42.62,0.1374,7,25493.79,100,Critical
-3004,Medicaments Packaged,True,TOTAL FOR ALL COUNTRIES,18.38,44.58,0.0944,15,144097.85,100,Critical
-8471,Automatic Data Processing Machines,True,TOTAL FOR ALL COUNTRIES,16.3,42.06,0.0923,14,851391.04,100,Critical
-8517,Telephone Sets & Network Equipment,True,TOTAL FOR ALL COUNTRIES,19.79,52.63,0.1139,16,314466.73,100,Critical
-8542,Electronic Integrated Circuits,True,TOTAL FOR ALL COUNTRIES,18.62,49.4,0.1141,14,99777.43,100,Critical
-8703,Motor Cars & Vehicles,False,TOTAL FOR ALL COUNTRIES,14.95,40.86,0.081,18,412019.44,100,Critical
-8708,Motor Vehicle Parts,False,TOTAL FOR ALL COUNTRIES,14.6,39.17,0.0838,17,197462.56,100,Critical
+2711,Petroleum Gases,True,CANADA,94.79,98.91,0.8994,3,3684.68,100.0,Critical
+2709,Crude Petroleum Oils,True,CANADA,62.11,75.36,0.4024,10,56420.01,64.0,Elevated
+8471,Automatic Data Processing Machines,True,MEXICO,36.13,82.0,0.2755,6,138787.06,39.2,Moderate
+8542,Electronic Integrated Circuits,True,TAIWAN,38.06,62.28,0.1944,13,18580.57,36.7,Moderate
+8708,Motor Vehicle Parts,False,MEXICO,43.57,65.03,0.2304,9,28832.12,35.4,Moderate
+8517,Telephone Sets & Network Equipment,True,VIETNAM,23.83,60.27,0.1542,7,62225.12,24.6,Low
+8703,Motor Cars & Vehicles,False,MEXICO,22.33,59.4,0.1557,11,61591.2,19.6,Low
+3004,Medicaments Packaged,True,IRELAND,16.15,44.47,0.0898,16,26486.95,15.9,Low

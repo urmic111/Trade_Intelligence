@@ -1,0 +1,46 @@
+entity_type,entity_id,entity_name,cluster,total_import_12m_usd_m,cluster_label
+country,Australia,Australia,2,115368.0,CountryCluster-2
+country,Brazil,Brazil,0,287397.68,CountryCluster-0
+country,Canada,Canada,3,571056.2,CountryCluster-3
+country,China,China,4,679949.47,CountryCluster-4
+country,France,France,3,456151.73,CountryCluster-3
+country,Germany,Germany,2,117180.61,CountryCluster-2
+country,India,India,3,405610.76,CountryCluster-3
+country,Italy,Italy,0,340314.05,CountryCluster-0
+country,Japan,Japan,3,489114.82,CountryCluster-3
+country,Malaysia,Malaysia,2,183137.74,CountryCluster-2
+country,Mexico,Mexico,0,248510.28,CountryCluster-0
+country,Netherlands,Netherlands,3,418854.54,CountryCluster-3
+country,Saudi Arabia,Saudi Arabia,3,423409.6,CountryCluster-3
+country,Singapore,Singapore,0,301088.93,CountryCluster-0
+country,South Korea,South Korea,1,647509.33,CountryCluster-1
+country,Switzerland,Switzerland,0,333522.64,CountryCluster-0
+country,Taiwan,Taiwan,2,133448.23,CountryCluster-2
+country,Thailand,Thailand,0,252920.73,CountryCluster-0
+country,United Kingdom,United Kingdom,0,255967.83,CountryCluster-0
+country,Vietnam,Vietnam,3,396219.05,CountryCluster-3
+commodity,1005,Maize (Corn),0,334683.63,CommodityCluster-0
+commodity,1201,Soya Beans,0,318878.49,CommodityCluster-0
+commodity,2601,Iron Ores & Concentrates,0,214143.18,CommodityCluster-0
+commodity,2615,"Niobium, Tantalum, Vanadium Ores",2,161815.64,CommodityCluster-2
+commodity,2709,Crude Petroleum Oils,0,294847.38,CommodityCluster-0
+commodity,2711,Petroleum Gases,0,355621.07,CommodityCluster-0
+commodity,2804,"Hydrogen, Rare Gases, Silicon",4,191844.76,CommodityCluster-4
+commodity,2844,Radioactive Chemical Elements,2,185167.91,CommodityCluster-2
+commodity,2902,Cyclic Hydrocarbons,0,275306.42,CommodityCluster-0
+commodity,3004,Medicaments Packaged,0,284815.02,CommodityCluster-0
+commodity,3901,Polymers of Ethylene,0,397728.6,CommodityCluster-0
+commodity,6109,T-shirts & Singlets,0,340940.65,CommodityCluster-0
+commodity,7108,Gold Unwrought,0,321920.49,CommodityCluster-0
+commodity,7208,Flat-Rolled Iron/Steel,0,267051.6,CommodityCluster-0
+commodity,8112,"Beryllium, Chromium, Germanium etc.",1,124048.63,CommodityCluster-1
+commodity,8471,Automatic Data Processing Machines,0,279966.03,CommodityCluster-0
+commodity,8504,Electrical Transformers,0,258612.69,CommodityCluster-0
+commodity,8507,Electric Accumulators,4,254980.23,CommodityCluster-4
+commodity,8517,Telephone Sets & Network Equipment,0,301544.19,CommodityCluster-0
+commodity,8542,Electronic Integrated Circuits,3,195466.03,CommodityCluster-3
+commodity,8703,Motor Cars & Vehicles,0,375737.96,CommodityCluster-0
+commodity,8708,Motor Vehicle Parts,0,339057.64,CommodityCluster-0
+commodity,8802,Aircraft & Spacecraft,0,363467.25,CommodityCluster-0
+commodity,9018,Medical Instruments,0,296996.48,CommodityCluster-0
+commodity,9401,Seats,0,322090.25,CommodityCluster-0

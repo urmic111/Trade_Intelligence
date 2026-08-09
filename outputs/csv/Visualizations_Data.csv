@@ -1,148 +1,148 @@
 chart,series,x,y,hs_code,commodity
-line_top10_imports,Crude Petroleum Oils,2026-03-01,73816.559935,2709.0,Crude Petroleum Oils
-line_top10_imports,Crude Petroleum Oils,2026-04-01,84939.998991,2709.0,Crude Petroleum Oils
-line_top10_imports,Crude Petroleum Oils,2026-05-01,93145.14349,2709.0,Crude Petroleum Oils
-line_top10_imports,Crude Petroleum Oils,2026-06-01,93256.883342,2709.0,Crude Petroleum Oils
-line_top10_imports,Petroleum Gases,2026-03-01,9434.041521000001,2711.0,Petroleum Gases
-line_top10_imports,Petroleum Gases,2026-04-01,6409.252572,2711.0,Petroleum Gases
-line_top10_imports,Petroleum Gases,2026-05-01,4372.654266,2711.0,Petroleum Gases
-line_top10_imports,Petroleum Gases,2026-06-01,5277.838895,2711.0,Petroleum Gases
-line_top10_imports,Medicaments Packaged,2026-03-01,33429.934893,3004.0,Medicaments Packaged
-line_top10_imports,Medicaments Packaged,2026-04-01,35613.516472,3004.0,Medicaments Packaged
-line_top10_imports,Medicaments Packaged,2026-05-01,37503.163954,3004.0,Medicaments Packaged
-line_top10_imports,Medicaments Packaged,2026-06-01,37551.239164,3004.0,Medicaments Packaged
-line_top10_imports,Automatic Data Processing Machines,2026-03-01,194210.247973,8471.0,Automatic Data Processing Machines
-line_top10_imports,Automatic Data Processing Machines,2026-04-01,213172.202618,8471.0,Automatic Data Processing Machines
-line_top10_imports,Automatic Data Processing Machines,2026-05-01,220874.953338,8471.0,Automatic Data Processing Machines
-line_top10_imports,Automatic Data Processing Machines,2026-06-01,223133.637687,8471.0,Automatic Data Processing Machines
-line_top10_imports,Telephone Sets & Network Equipment,2026-03-01,74604.754408,8517.0,Telephone Sets & Network Equipment
-line_top10_imports,Telephone Sets & Network Equipment,2026-04-01,76026.32621099999,8517.0,Telephone Sets & Network Equipment
-line_top10_imports,Telephone Sets & Network Equipment,2026-05-01,76005.017556,8517.0,Telephone Sets & Network Equipment
-line_top10_imports,Telephone Sets & Network Equipment,2026-06-01,87830.633298,8517.0,Telephone Sets & Network Equipment
-line_top10_imports,Electronic Integrated Circuits,2026-03-01,25236.375843,8542.0,Electronic Integrated Circuits
-line_top10_imports,Electronic Integrated Circuits,2026-04-01,23879.836213,8542.0,Electronic Integrated Circuits
-line_top10_imports,Electronic Integrated Circuits,2026-05-01,24012.798367,8542.0,Electronic Integrated Circuits
-line_top10_imports,Electronic Integrated Circuits,2026-06-01,26648.424223,8542.0,Electronic Integrated Circuits
-line_top10_imports,Motor Cars & Vehicles,2026-03-01,110211.027143,8703.0,Motor Cars & Vehicles
-line_top10_imports,Motor Cars & Vehicles,2026-04-01,97397.699731,8703.0,Motor Cars & Vehicles
-line_top10_imports,Motor Cars & Vehicles,2026-05-01,101309.41316,8703.0,Motor Cars & Vehicles
-line_top10_imports,Motor Cars & Vehicles,2026-06-01,103101.298442,8703.0,Motor Cars & Vehicles
-line_top10_imports,Motor Vehicle Parts,2026-03-01,50861.940509,8708.0,Motor Vehicle Parts
-line_top10_imports,Motor Vehicle Parts,2026-04-01,48575.20689,8708.0,Motor Vehicle Parts
-line_top10_imports,Motor Vehicle Parts,2026-05-01,50375.983229,8708.0,Motor Vehicle Parts
-line_top10_imports,Motor Vehicle Parts,2026-06-01,47649.43247,8708.0,Motor Vehicle Parts
-line_forecast_imports,Automatic Data Processing Machines,2026-07-01,224172.55,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2026-08-01,224572.19,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2026-09-01,224725.92,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2026-10-01,224785.05,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2026-11-01,224807.8,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2026-12-01,224816.55,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-01-01,224819.92,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-02-01,224821.21,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-03-01,224821.71,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-04-01,224821.9,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-05-01,224821.98,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Automatic Data Processing Machines,2027-06-01,224822.0,8471.0,Automatic Data Processing Machines
-line_forecast_imports,Motor Cars & Vehicles,2026-07-01,102983.95,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2026-08-01,103011.37,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2026-09-01,103004.97,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2026-10-01,103006.46,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2026-11-01,103006.11,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2026-12-01,103006.19,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-01-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-02-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-03-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-04-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-05-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Motor Cars & Vehicles,2027-06-01,103006.18,8703.0,Motor Cars & Vehicles
-line_forecast_imports,Crude Petroleum Oils,2026-07-01,94363.44,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2026-08-01,94911.93,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2026-09-01,95183.81,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2026-10-01,95318.57,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2026-11-01,95385.37,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2026-12-01,95418.48,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-01-01,95434.89,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-02-01,95443.03,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-03-01,95447.06,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-04-01,95449.06,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-05-01,95450.05,2709.0,Crude Petroleum Oils
-line_forecast_imports,Crude Petroleum Oils,2027-06-01,95450.54,2709.0,Crude Petroleum Oils
-line_forecast_imports,Telephone Sets & Network Equipment,2026-07-01,85082.6,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2026-08-01,87504.42,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2026-09-01,85370.08,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2026-10-01,87251.06,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2026-11-01,85593.37,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2026-12-01,87054.28,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-01-01,85766.79,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-02-01,86901.44,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-03-01,85901.48,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-04-01,86782.74,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-05-01,86006.1,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Telephone Sets & Network Equipment,2027-06-01,86690.55,8517.0,Telephone Sets & Network Equipment
-line_forecast_imports,Motor Vehicle Parts,2026-07-01,49912.99,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2026-08-01,47650.45,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2026-09-01,49911.97,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2026-10-01,47651.47,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2026-11-01,49910.96,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2026-12-01,47652.48,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-01-01,49909.94,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-02-01,47653.5,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-03-01,49908.93,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-04-01,47654.51,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-05-01,49907.91,8708.0,Motor Vehicle Parts
-line_forecast_imports,Motor Vehicle Parts,2027-06-01,47655.52,8708.0,Motor Vehicle Parts
-line_forecast_imports,Medicaments Packaged,2026-07-01,37856.94,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2026-08-01,38022.86,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2026-09-01,38112.91,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2026-10-01,38161.79,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2026-11-01,38188.32,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2026-12-01,38202.72,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-01-01,38210.53,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-02-01,38214.78,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-03-01,38217.08,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-04-01,38218.33,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-05-01,38219.01,3004.0,Medicaments Packaged
-line_forecast_imports,Medicaments Packaged,2027-06-01,38219.37,3004.0,Medicaments Packaged
-line_forecast_imports,Electronic Integrated Circuits,2026-07-01,26439.5,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2026-08-01,26450.14,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2026-09-01,26449.6,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2026-10-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2026-11-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2026-12-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-01-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-02-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-03-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-04-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-05-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Electronic Integrated Circuits,2027-06-01,26449.63,8542.0,Electronic Integrated Circuits
-line_forecast_imports,Petroleum Gases,2026-07-01,5462.87,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2026-08-01,5493.52,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2026-09-01,5498.59,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2026-10-01,5499.43,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2026-11-01,5499.57,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2026-12-01,5499.59,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-01-01,5499.6,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-02-01,5499.6,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-03-01,5499.6,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-04-01,5499.6,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-05-01,5499.6,2711.0,Petroleum Gases
-line_forecast_imports,Petroleum Gases,2027-06-01,5499.6,2711.0,Petroleum Gases
-bar_composite_risk,composite_risk,Electronic Integrated Circuits,67.6,8542.0,Electronic Integrated Circuits
-bar_composite_risk,composite_risk,Crude Petroleum Oils,65.0,2709.0,Crude Petroleum Oils
-bar_composite_risk,composite_risk,Petroleum Gases,64.9,2711.0,Petroleum Gases
-bar_composite_risk,composite_risk,Medicaments Packaged,61.5,3004.0,Medicaments Packaged
-bar_composite_risk,composite_risk,Telephone Sets & Network Equipment,61.5,8517.0,Telephone Sets & Network Equipment
-bar_composite_risk,composite_risk,Motor Vehicle Parts,60.0,8708.0,Motor Vehicle Parts
-bar_composite_risk,composite_risk,Motor Cars & Vehicles,57.9,8703.0,Motor Cars & Vehicles
-bar_composite_risk,composite_risk,Automatic Data Processing Machines,57.6,8471.0,Automatic Data Processing Machines
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Crude Petroleum Oils,16.35,2709.0,Crude Petroleum Oils
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Petroleum Gases,14.45,2711.0,Petroleum Gases
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Medicaments Packaged,18.38,3004.0,Medicaments Packaged
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Automatic Data Processing Machines,16.3,8471.0,Automatic Data Processing Machines
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Telephone Sets & Network Equipment,19.79,8517.0,Telephone Sets & Network Equipment
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Electronic Integrated Circuits,18.62,8542.0,Electronic Integrated Circuits
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Motor Cars & Vehicles,14.95,8703.0,Motor Cars & Vehicles
-heatmap_dependency,TOTAL FOR ALL COUNTRIES,Motor Vehicle Parts,14.6,8708.0,Motor Vehicle Parts
+line_top10_imports,Crude Petroleum Oils,2026-03-01,12459.877465,2709.0,Crude Petroleum Oils
+line_top10_imports,Crude Petroleum Oils,2026-04-01,13893.659486,2709.0,Crude Petroleum Oils
+line_top10_imports,Crude Petroleum Oils,2026-05-01,15156.298648,2709.0,Crude Petroleum Oils
+line_top10_imports,Crude Petroleum Oils,2026-06-01,14910.17907,2709.0,Crude Petroleum Oils
+line_top10_imports,Petroleum Gases,2026-03-01,1364.934269,2711.0,Petroleum Gases
+line_top10_imports,Petroleum Gases,2026-04-01,930.702943,2711.0,Petroleum Gases
+line_top10_imports,Petroleum Gases,2026-05-01,620.414704,2711.0,Petroleum Gases
+line_top10_imports,Petroleum Gases,2026-06-01,768.6274249999999,2711.0,Petroleum Gases
+line_top10_imports,Medicaments Packaged,2026-03-01,6144.479094,3004.0,Medicaments Packaged
+line_top10_imports,Medicaments Packaged,2026-04-01,6486.3176,3004.0,Medicaments Packaged
+line_top10_imports,Medicaments Packaged,2026-05-01,7037.612699,3004.0,Medicaments Packaged
+line_top10_imports,Medicaments Packaged,2026-06-01,6818.536268,3004.0,Medicaments Packaged
+line_top10_imports,Automatic Data Processing Machines,2026-03-01,32613.158623,8471.0,Automatic Data Processing Machines
+line_top10_imports,Automatic Data Processing Machines,2026-04-01,35262.741625,8471.0,Automatic Data Processing Machines
+line_top10_imports,Automatic Data Processing Machines,2026-05-01,35711.744148,8471.0,Automatic Data Processing Machines
+line_top10_imports,Automatic Data Processing Machines,2026-06-01,35199.413826,8471.0,Automatic Data Processing Machines
+line_top10_imports,Telephone Sets & Network Equipment,2026-03-01,14671.273115,8517.0,Telephone Sets & Network Equipment
+line_top10_imports,Telephone Sets & Network Equipment,2026-04-01,15223.915972,8517.0,Telephone Sets & Network Equipment
+line_top10_imports,Telephone Sets & Network Equipment,2026-05-01,15092.333377,8517.0,Telephone Sets & Network Equipment
+line_top10_imports,Telephone Sets & Network Equipment,2026-06-01,17237.599999,8517.0,Telephone Sets & Network Equipment
+line_top10_imports,Electronic Integrated Circuits,2026-03-01,4684.700629,8542.0,Electronic Integrated Circuits
+line_top10_imports,Electronic Integrated Circuits,2026-04-01,4396.721767,8542.0,Electronic Integrated Circuits
+line_top10_imports,Electronic Integrated Circuits,2026-05-01,4476.331643,8542.0,Electronic Integrated Circuits
+line_top10_imports,Electronic Integrated Circuits,2026-06-01,5022.811092,8542.0,Electronic Integrated Circuits
+line_top10_imports,Motor Cars & Vehicles,2026-03-01,16487.803848,8703.0,Motor Cars & Vehicles
+line_top10_imports,Motor Cars & Vehicles,2026-04-01,14608.94208,8703.0,Motor Cars & Vehicles
+line_top10_imports,Motor Cars & Vehicles,2026-05-01,15100.9718,8703.0,Motor Cars & Vehicles
+line_top10_imports,Motor Cars & Vehicles,2026-06-01,15393.486649,8703.0,Motor Cars & Vehicles
+line_top10_imports,Motor Vehicle Parts,2026-03-01,7411.711043,8708.0,Motor Vehicle Parts
+line_top10_imports,Motor Vehicle Parts,2026-04-01,7100.175643,8708.0,Motor Vehicle Parts
+line_top10_imports,Motor Vehicle Parts,2026-05-01,7355.540300000001,8708.0,Motor Vehicle Parts
+line_top10_imports,Motor Vehicle Parts,2026-06-01,6964.690873,8708.0,Motor Vehicle Parts
+line_forecast_imports,Automatic Data Processing Machines,2026-07-01,34768.32,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2026-08-01,34670.31,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2026-09-01,34648.03,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2026-10-01,34642.96,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2026-11-01,34641.81,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2026-12-01,34641.55,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-01-01,34641.49,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-02-01,34641.48,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-03-01,34641.47,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-04-01,34641.47,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-05-01,34641.47,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Automatic Data Processing Machines,2027-06-01,34641.47,8471.0,Automatic Data Processing Machines
+line_forecast_imports,Telephone Sets & Network Equipment,2026-07-01,16977.84,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2026-08-01,17173.94,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2026-09-01,17025.9,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2026-10-01,17137.66,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2026-11-01,17053.29,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2026-12-01,17116.98,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-01-01,17068.9,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-02-01,17105.2,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-03-01,17077.8,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-04-01,17098.48,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-05-01,17082.87,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Telephone Sets & Network Equipment,2027-06-01,17094.66,8517.0,Telephone Sets & Network Equipment
+line_forecast_imports,Motor Cars & Vehicles,2026-07-01,15045.22,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2026-08-01,15161.0,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2026-09-01,15122.51,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2026-10-01,15135.3,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2026-11-01,15131.05,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2026-12-01,15132.46,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-01-01,15131.99,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-02-01,15132.15,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-03-01,15132.1,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-04-01,15132.12,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-05-01,15132.11,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Motor Cars & Vehicles,2027-06-01,15132.11,8703.0,Motor Cars & Vehicles
+line_forecast_imports,Crude Petroleum Oils,2026-07-01,14938.14,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2026-08-01,14952.49,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2026-09-01,14959.85,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2026-10-01,14963.64,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2026-11-01,14965.58,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2026-12-01,14966.57,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-01-01,14967.08,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-02-01,14967.35,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-03-01,14967.48,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-04-01,14967.55,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-05-01,14967.59,2709.0,Crude Petroleum Oils
+line_forecast_imports,Crude Petroleum Oils,2027-06-01,14967.6,2709.0,Crude Petroleum Oils
+line_forecast_imports,Motor Vehicle Parts,2026-07-01,7281.38,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2026-08-01,6964.73,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2026-09-01,7281.34,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2026-10-01,6964.77,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2026-11-01,7281.3,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2026-12-01,6964.81,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-01-01,7281.26,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-02-01,6964.85,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-03-01,7281.22,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-04-01,6964.89,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-05-01,7281.18,8708.0,Motor Vehicle Parts
+line_forecast_imports,Motor Vehicle Parts,2027-06-01,6964.93,8708.0,Motor Vehicle Parts
+line_forecast_imports,Medicaments Packaged,2026-07-01,6825.27,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2026-08-01,6829.24,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2026-09-01,6831.58,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2026-10-01,6832.96,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2026-11-01,6833.78,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2026-12-01,6834.26,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-01-01,6834.54,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-02-01,6834.71,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-03-01,6834.81,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-04-01,6834.86,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-05-01,6834.9,3004.0,Medicaments Packaged
+line_forecast_imports,Medicaments Packaged,2027-06-01,6834.92,3004.0,Medicaments Packaged
+line_forecast_imports,Electronic Integrated Circuits,2026-07-01,4822.2,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2026-08-01,4848.59,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2026-09-01,4845.12,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2026-10-01,4845.58,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2026-11-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2026-12-01,4845.53,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-01-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-02-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-03-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-04-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-05-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Electronic Integrated Circuits,2027-06-01,4845.52,8542.0,Electronic Integrated Circuits
+line_forecast_imports,Petroleum Gases,2026-07-01,889.0,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2026-08-01,877.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2026-09-01,878.61,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2026-10-01,878.5,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2026-11-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2026-12-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-01-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-02-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-03-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-04-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-05-01,878.51,2711.0,Petroleum Gases
+line_forecast_imports,Petroleum Gases,2027-06-01,878.51,2711.0,Petroleum Gases
+bar_composite_risk,composite_risk,Petroleum Gases,61.2,2711.0,Petroleum Gases
+bar_composite_risk,composite_risk,Electronic Integrated Circuits,52.2,8542.0,Electronic Integrated Circuits
+bar_composite_risk,composite_risk,Crude Petroleum Oils,46.9,2709.0,Crude Petroleum Oils
+bar_composite_risk,composite_risk,Telephone Sets & Network Equipment,33.9,8517.0,Telephone Sets & Network Equipment
+bar_composite_risk,composite_risk,Motor Vehicle Parts,32.9,8708.0,Motor Vehicle Parts
+bar_composite_risk,composite_risk,Automatic Data Processing Machines,32.0,8471.0,Automatic Data Processing Machines
+bar_composite_risk,composite_risk,Medicaments Packaged,27.9,3004.0,Medicaments Packaged
+bar_composite_risk,composite_risk,Motor Cars & Vehicles,24.5,8703.0,Motor Cars & Vehicles
+heatmap_dependency,CANADA,Petroleum Gases,94.79,2711.0,Petroleum Gases
+heatmap_dependency,CANADA,Crude Petroleum Oils,62.11,2709.0,Crude Petroleum Oils
+heatmap_dependency,MEXICO,Automatic Data Processing Machines,36.13,8471.0,Automatic Data Processing Machines
+heatmap_dependency,TAIWAN,Electronic Integrated Circuits,38.06,8542.0,Electronic Integrated Circuits
+heatmap_dependency,MEXICO,Motor Vehicle Parts,43.57,8708.0,Motor Vehicle Parts
+heatmap_dependency,VIETNAM,Telephone Sets & Network Equipment,23.83,8517.0,Telephone Sets & Network Equipment
+heatmap_dependency,MEXICO,Motor Cars & Vehicles,22.33,8703.0,Motor Cars & Vehicles
+heatmap_dependency,IRELAND,Medicaments Packaged,16.15,3004.0,Medicaments Packaged
 bar_port_congestion,congestion,Long Beach,53.1,,
 bar_port_congestion,congestion,Los Angeles,44.3,,
 bar_port_congestion,congestion,Oakland,43.4,,

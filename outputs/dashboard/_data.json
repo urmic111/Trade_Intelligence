@@ -1,86 +1,86 @@
 {
   "kpis": {
     "critical": 0,
-    "elevated": 8,
-    "anomalies": 0,
-    "avg_dependency": 100.0,
+    "elevated": 1,
+    "anomalies": 7,
+    "avg_dependency": 41.9,
     "max_port": 53.1,
-    "recommendations": 12,
+    "recommendations": 10,
     "commodities": 8,
     "ports": 10
   },
   "risk": [
     {
+      "label": "Petroleum Gases",
+      "commodity": "Petroleum Gases",
+      "composite_risk_0_100": 61.2,
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 94.79,
+      "risk_tier": "Elevated",
+      "critical": true
+    },
+    {
       "label": "Electronic Integrated Circuits",
       "commodity": "Electronic Integrated Circuits",
-      "composite_risk_0_100": 67.6,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 18.62,
-      "risk_tier": "Elevated",
+      "composite_risk_0_100": 52.2,
+      "top_supplier": "TAIWAN",
+      "top_supplier_share_pct": 38.06,
+      "risk_tier": "Moderate",
       "critical": true
     },
     {
       "label": "Crude Petroleum Oils",
       "commodity": "Crude Petroleum Oils",
-      "composite_risk_0_100": 65.0,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 16.35,
-      "risk_tier": "Elevated",
-      "critical": true
-    },
-    {
-      "label": "Petroleum Gases",
-      "commodity": "Petroleum Gases",
-      "composite_risk_0_100": 64.9,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.45,
-      "risk_tier": "Elevated",
-      "critical": true
-    },
-    {
-      "label": "Medicaments Packaged",
-      "commodity": "Medicaments Packaged",
-      "composite_risk_0_100": 61.5,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 18.38,
-      "risk_tier": "Elevated",
+      "composite_risk_0_100": 46.9,
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 62.11,
+      "risk_tier": "Moderate",
       "critical": true
     },
     {
       "label": "Telephone Sets & Network Equipment",
       "commodity": "Telephone Sets & Network Equipment",
-      "composite_risk_0_100": 61.5,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 19.79,
-      "risk_tier": "Elevated",
+      "composite_risk_0_100": 33.9,
+      "top_supplier": "VIETNAM",
+      "top_supplier_share_pct": 23.83,
+      "risk_tier": "Low",
       "critical": true
     },
     {
       "label": "Motor Vehicle Parts",
       "commodity": "Motor Vehicle Parts",
-      "composite_risk_0_100": 60.0,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.6,
-      "risk_tier": "Elevated",
-      "critical": false
-    },
-    {
-      "label": "Motor Cars & Vehicles",
-      "commodity": "Motor Cars & Vehicles",
-      "composite_risk_0_100": 57.9,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.95,
-      "risk_tier": "Elevated",
+      "composite_risk_0_100": 32.9,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 43.57,
+      "risk_tier": "Low",
       "critical": false
     },
     {
       "label": "Automatic Data Processing Machines",
       "commodity": "Automatic Data Processing Machines",
-      "composite_risk_0_100": 57.6,
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 16.3,
-      "risk_tier": "Elevated",
+      "composite_risk_0_100": 32.0,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 36.13,
+      "risk_tier": "Low",
       "critical": true
+    },
+    {
+      "label": "Medicaments Packaged",
+      "commodity": "Medicaments Packaged",
+      "composite_risk_0_100": 27.9,
+      "top_supplier": "IRELAND",
+      "top_supplier_share_pct": 16.15,
+      "risk_tier": "Low",
+      "critical": true
+    },
+    {
+      "label": "Motor Cars & Vehicles",
+      "commodity": "Motor Cars & Vehicles",
+      "composite_risk_0_100": 24.5,
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 22.33,
+      "risk_tier": "Low",
+      "critical": false
     }
   ],
   "ports": [
@@ -155,505 +155,562 @@
       "bottleneck_flag": false
     }
   ],
-  "anomalies": [],
+  "anomalies": [
+    {
+      "date": "2026-03",
+      "label": "Automatic Data Proces\u2026 (drop)",
+      "commodity": "Automatic Data Processing Machines",
+      "direction": "drop",
+      "z_score": -9.946,
+      "severity_score": 10.0
+    },
+    {
+      "date": "2026-06",
+      "label": "Telephone Sets & Netw\u2026 (spike)",
+      "commodity": "Telephone Sets & Network Equipment",
+      "direction": "spike",
+      "z_score": 7.766,
+      "severity_score": 10.0
+    },
+    {
+      "date": "2026-05",
+      "label": "Petroleum Gases (drop)",
+      "commodity": "Petroleum Gases",
+      "direction": "drop",
+      "z_score": -1.301,
+      "severity_score": 8.33
+    },
+    {
+      "date": "2026-03",
+      "label": "Motor Cars & Vehicles (spike)",
+      "commodity": "Motor Cars & Vehicles",
+      "direction": "spike",
+      "z_score": 3.666,
+      "severity_score": 5.5
+    },
+    {
+      "date": "2026-06",
+      "label": "Electronic Integrated\u2026 (spike)",
+      "commodity": "Electronic Integrated Circuits",
+      "direction": "spike",
+      "z_score": 3.386,
+      "severity_score": 5.08
+    },
+    {
+      "date": "2026-03",
+      "label": "Crude Petroleum Oils (drop)",
+      "commodity": "Crude Petroleum Oils",
+      "direction": "drop",
+      "z_score": -3.277,
+      "severity_score": 4.92
+    },
+    {
+      "date": "2026-03",
+      "label": "Medicaments Packaged (drop)",
+      "commodity": "Medicaments Packaged",
+      "direction": "drop",
+      "z_score": -2.293,
+      "severity_score": 3.44
+    }
+  ],
   "forecasts": [
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 224172.55,
+      "forecast_import_usd_m": 34768.32,
       "horizon_month": 1
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 224572.19,
+      "forecast_import_usd_m": 34670.31,
       "horizon_month": 2
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 224725.92,
+      "forecast_import_usd_m": 34648.03,
       "horizon_month": 3
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 224785.05,
+      "forecast_import_usd_m": 34642.96,
       "horizon_month": 4
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 224807.8,
+      "forecast_import_usd_m": 34641.81,
       "horizon_month": 5
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 224816.55,
+      "forecast_import_usd_m": 34641.55,
       "horizon_month": 6
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 224819.92,
+      "forecast_import_usd_m": 34641.49,
       "horizon_month": 7
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 224821.21,
+      "forecast_import_usd_m": 34641.48,
       "horizon_month": 8
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 224821.71,
+      "forecast_import_usd_m": 34641.47,
       "horizon_month": 9
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 224821.9,
+      "forecast_import_usd_m": 34641.47,
       "horizon_month": 10
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 224821.98,
+      "forecast_import_usd_m": 34641.47,
       "horizon_month": 11
     },
     {
       "commodity": "Automatic Data Processing Machines",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 224822.0,
+      "forecast_import_usd_m": 34641.47,
       "horizon_month": 12
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 94363.44,
+      "forecast_import_usd_m": 14938.14,
       "horizon_month": 1
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 94911.93,
+      "forecast_import_usd_m": 14952.49,
       "horizon_month": 2
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 95183.81,
+      "forecast_import_usd_m": 14959.85,
       "horizon_month": 3
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 95318.57,
+      "forecast_import_usd_m": 14963.64,
       "horizon_month": 4
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 95385.37,
+      "forecast_import_usd_m": 14965.58,
       "horizon_month": 5
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 95418.48,
+      "forecast_import_usd_m": 14966.57,
       "horizon_month": 6
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 95434.89,
+      "forecast_import_usd_m": 14967.08,
       "horizon_month": 7
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 95443.03,
+      "forecast_import_usd_m": 14967.35,
       "horizon_month": 8
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 95447.06,
+      "forecast_import_usd_m": 14967.48,
       "horizon_month": 9
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 95449.06,
+      "forecast_import_usd_m": 14967.55,
       "horizon_month": 10
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 95450.05,
+      "forecast_import_usd_m": 14967.59,
       "horizon_month": 11
     },
     {
       "commodity": "Crude Petroleum Oils",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 95450.54,
+      "forecast_import_usd_m": 14967.6,
       "horizon_month": 12
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 37856.94,
+      "forecast_import_usd_m": 6825.27,
       "horizon_month": 1
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 38022.86,
+      "forecast_import_usd_m": 6829.24,
       "horizon_month": 2
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 38112.91,
+      "forecast_import_usd_m": 6831.58,
       "horizon_month": 3
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 38161.79,
+      "forecast_import_usd_m": 6832.96,
       "horizon_month": 4
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 38188.32,
+      "forecast_import_usd_m": 6833.78,
       "horizon_month": 5
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 38202.72,
+      "forecast_import_usd_m": 6834.26,
       "horizon_month": 6
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 38210.53,
+      "forecast_import_usd_m": 6834.54,
       "horizon_month": 7
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 38214.78,
+      "forecast_import_usd_m": 6834.71,
       "horizon_month": 8
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 38217.08,
+      "forecast_import_usd_m": 6834.81,
       "horizon_month": 9
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 38218.33,
+      "forecast_import_usd_m": 6834.86,
       "horizon_month": 10
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 38219.01,
+      "forecast_import_usd_m": 6834.9,
       "horizon_month": 11
     },
     {
       "commodity": "Medicaments Packaged",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 38219.37,
+      "forecast_import_usd_m": 6834.92,
       "horizon_month": 12
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 102983.95,
+      "forecast_import_usd_m": 15045.22,
       "horizon_month": 1
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 103011.37,
+      "forecast_import_usd_m": 15161.0,
       "horizon_month": 2
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 103004.97,
+      "forecast_import_usd_m": 15122.51,
       "horizon_month": 3
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 103006.46,
+      "forecast_import_usd_m": 15135.3,
       "horizon_month": 4
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 103006.11,
+      "forecast_import_usd_m": 15131.05,
       "horizon_month": 5
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 103006.19,
+      "forecast_import_usd_m": 15132.46,
       "horizon_month": 6
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15131.99,
       "horizon_month": 7
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15132.15,
       "horizon_month": 8
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15132.1,
       "horizon_month": 9
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15132.12,
       "horizon_month": 10
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15132.11,
       "horizon_month": 11
     },
     {
       "commodity": "Motor Cars & Vehicles",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 103006.18,
+      "forecast_import_usd_m": 15132.11,
       "horizon_month": 12
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 49912.99,
+      "forecast_import_usd_m": 7281.38,
       "horizon_month": 1
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 47650.45,
+      "forecast_import_usd_m": 6964.73,
       "horizon_month": 2
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 49911.97,
+      "forecast_import_usd_m": 7281.34,
       "horizon_month": 3
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 47651.47,
+      "forecast_import_usd_m": 6964.77,
       "horizon_month": 4
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 49910.96,
+      "forecast_import_usd_m": 7281.3,
       "horizon_month": 5
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 47652.48,
+      "forecast_import_usd_m": 6964.81,
       "horizon_month": 6
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 49909.94,
+      "forecast_import_usd_m": 7281.26,
       "horizon_month": 7
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 47653.5,
+      "forecast_import_usd_m": 6964.85,
       "horizon_month": 8
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 49908.93,
+      "forecast_import_usd_m": 7281.22,
       "horizon_month": 9
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 47654.51,
+      "forecast_import_usd_m": 6964.89,
       "horizon_month": 10
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 49907.91,
+      "forecast_import_usd_m": 7281.18,
       "horizon_month": 11
     },
     {
       "commodity": "Motor Vehicle Parts",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 47655.52,
+      "forecast_import_usd_m": 6964.93,
       "horizon_month": 12
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-07-01",
-      "forecast_import_usd_m": 85082.6,
+      "forecast_import_usd_m": 16977.84,
       "horizon_month": 1
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-08-01",
-      "forecast_import_usd_m": 87504.42,
+      "forecast_import_usd_m": 17173.94,
       "horizon_month": 2
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-09-01",
-      "forecast_import_usd_m": 85370.08,
+      "forecast_import_usd_m": 17025.9,
       "horizon_month": 3
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-10-01",
-      "forecast_import_usd_m": 87251.06,
+      "forecast_import_usd_m": 17137.66,
       "horizon_month": 4
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-11-01",
-      "forecast_import_usd_m": 85593.37,
+      "forecast_import_usd_m": 17053.29,
       "horizon_month": 5
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2026-12-01",
-      "forecast_import_usd_m": 87054.28,
+      "forecast_import_usd_m": 17116.98,
       "horizon_month": 6
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-01-01",
-      "forecast_import_usd_m": 85766.79,
+      "forecast_import_usd_m": 17068.9,
       "horizon_month": 7
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-02-01",
-      "forecast_import_usd_m": 86901.44,
+      "forecast_import_usd_m": 17105.2,
       "horizon_month": 8
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-03-01",
-      "forecast_import_usd_m": 85901.48,
+      "forecast_import_usd_m": 17077.8,
       "horizon_month": 9
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-04-01",
-      "forecast_import_usd_m": 86782.74,
+      "forecast_import_usd_m": 17098.48,
       "horizon_month": 10
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-05-01",
-      "forecast_import_usd_m": 86006.1,
+      "forecast_import_usd_m": 17082.87,
       "horizon_month": 11
     },
     {
       "commodity": "Telephone Sets & Network Equipment",
       "forecast_date": "2027-06-01",
-      "forecast_import_usd_m": 86690.55,
+      "forecast_import_usd_m": 17094.66,
       "horizon_month": 12
     }
   ],
   "dependency": [
     {
-      "label": "Crude Petroleum Oils",
-      "commodity": "Crude Petroleum Oils",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 16.35,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
-    },
-    {
-      "label": "Petroleum Gases",
+      "label": "Petroleum Gases \u00b7 CANADA",
       "commodity": "Petroleum Gases",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.45,
-      "dependency_score_0_100": 100,
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 94.79,
+      "dependency_score_0_100": 100.0,
       "risk_tier": "Critical"
     },
     {
-      "label": "Medicaments Packaged",
-      "commodity": "Medicaments Packaged",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 18.38,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
+      "label": "Crude Petroleum Oils \u00b7 CANADA",
+      "commodity": "Crude Petroleum Oils",
+      "top_supplier": "CANADA",
+      "top_supplier_share_pct": 62.11,
+      "dependency_score_0_100": 64.0,
+      "risk_tier": "Elevated"
     },
     {
-      "label": "Automatic Data Processing Machines",
+      "label": "Automatic Data Processing\u2026 \u00b7 MEXICO",
       "commodity": "Automatic Data Processing Machines",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 16.3,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 36.13,
+      "dependency_score_0_100": 39.2,
+      "risk_tier": "Moderate"
     },
     {
-      "label": "Telephone Sets & Network Equipment",
-      "commodity": "Telephone Sets & Network Equipment",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 19.79,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
-    },
-    {
-      "label": "Electronic Integrated Circuits",
+      "label": "Electronic Integrated Cir\u2026 \u00b7 TAIWAN",
       "commodity": "Electronic Integrated Circuits",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 18.62,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
+      "top_supplier": "TAIWAN",
+      "top_supplier_share_pct": 38.06,
+      "dependency_score_0_100": 36.7,
+      "risk_tier": "Moderate"
     },
     {
-      "label": "Motor Cars & Vehicles",
-      "commodity": "Motor Cars & Vehicles",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.95,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
-    },
-    {
-      "label": "Motor Vehicle Parts",
+      "label": "Motor Vehicle Parts \u00b7 MEXICO",
       "commodity": "Motor Vehicle Parts",
-      "top_supplier": "TOTAL FOR ALL COUNTRIES",
-      "top_supplier_share_pct": 14.6,
-      "dependency_score_0_100": 100,
-      "risk_tier": "Critical"
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 43.57,
+      "dependency_score_0_100": 35.4,
+      "risk_tier": "Moderate"
+    },
+    {
+      "label": "Telephone Sets & Network \u2026 \u00b7 VIETNAM",
+      "commodity": "Telephone Sets & Network Equipment",
+      "top_supplier": "VIETNAM",
+      "top_supplier_share_pct": 23.83,
+      "dependency_score_0_100": 24.6,
+      "risk_tier": "Low"
+    },
+    {
+      "label": "Motor Cars & Vehicles \u00b7 MEXICO",
+      "commodity": "Motor Cars & Vehicles",
+      "top_supplier": "MEXICO",
+      "top_supplier_share_pct": 22.33,
+      "dependency_score_0_100": 19.6,
+      "risk_tier": "Low"
+    },
+    {
+      "label": "Medicaments Packaged \u00b7 IRELAND",
+      "commodity": "Medicaments Packaged",
+      "top_supplier": "IRELAND",
+      "top_supplier_share_pct": 16.15,
+      "dependency_score_0_100": 15.9,
+      "risk_tier": "Low"
     }
   ],
   "recs": [
@@ -661,68 +718,12 @@
       "priority": 1,
       "audience": "Policymakers",
       "theme": "Critical Commodity Diversification",
-      "commodity": "Electronic Integrated Circuits",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (18.62% of imports) for Electronic Integrated Circuits. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
+      "commodity": "Petroleum Gases",
+      "recommendation": "Reduce single-supplier reliance on CANADA (94.79% of imports) for Petroleum Gases. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
       "expected_impact": "Lower geopolitical & supply shock exposure"
     },
     {
       "priority": 2,
-      "audience": "Policymakers",
-      "theme": "Critical Commodity Diversification",
-      "commodity": "Crude Petroleum Oils",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (16.35% of imports) for Crude Petroleum Oils. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
-      "expected_impact": "Lower geopolitical & supply shock exposure"
-    },
-    {
-      "priority": 3,
-      "audience": "Policymakers",
-      "theme": "Critical Commodity Diversification",
-      "commodity": "Petroleum Gases",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (14.45% of imports) for Petroleum Gases. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
-      "expected_impact": "Lower geopolitical & supply shock exposure"
-    },
-    {
-      "priority": 4,
-      "audience": "Policymakers",
-      "theme": "Critical Commodity Diversification",
-      "commodity": "Medicaments Packaged",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (18.38% of imports) for Medicaments Packaged. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
-      "expected_impact": "Lower geopolitical & supply shock exposure"
-    },
-    {
-      "priority": 5,
-      "audience": "Policymakers",
-      "theme": "Critical Commodity Diversification",
-      "commodity": "Telephone Sets & Network Equipment",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (19.79% of imports) for Telephone Sets & Network Equipment. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
-      "expected_impact": "Lower geopolitical & supply shock exposure"
-    },
-    {
-      "priority": 6,
-      "audience": "Policymakers",
-      "theme": "Critical Commodity Diversification",
-      "commodity": "Automatic Data Processing Machines",
-      "recommendation": "Reduce single-supplier reliance on TOTAL FOR ALL COUNTRIES (16.3% of imports) for Automatic Data Processing Machines. Expand friend-shoring incentives, stockpile review, and alternative-source FTAs.",
-      "expected_impact": "Lower geopolitical & supply shock exposure"
-    },
-    {
-      "priority": 7,
-      "audience": "Businesses",
-      "theme": "Tariff Mitigation",
-      "commodity": "Electronic Integrated Circuits",
-      "recommendation": "Effective duty ~28.06% on Electronic Integrated Circuits. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
-      "expected_impact": "Reduce landed cost & margin pressure"
-    },
-    {
-      "priority": 8,
-      "audience": "Businesses",
-      "theme": "Tariff Mitigation",
-      "commodity": "Crude Petroleum Oils",
-      "recommendation": "Effective duty ~24.23% on Crude Petroleum Oils. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
-      "expected_impact": "Reduce landed cost & margin pressure"
-    },
-    {
-      "priority": 9,
       "audience": "Businesses",
       "theme": "Tariff Mitigation",
       "commodity": "Petroleum Gases",
@@ -730,15 +731,23 @@
       "expected_impact": "Reduce landed cost & margin pressure"
     },
     {
-      "priority": 10,
+      "priority": 3,
       "audience": "Businesses",
       "theme": "Tariff Mitigation",
-      "commodity": "Medicaments Packaged",
-      "recommendation": "Effective duty ~29.06% on Medicaments Packaged. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "commodity": "Electronic Integrated Circuits",
+      "recommendation": "Effective duty ~28.06% on Electronic Integrated Circuits. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
       "expected_impact": "Reduce landed cost & margin pressure"
     },
     {
-      "priority": 11,
+      "priority": 4,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Crude Petroleum Oils",
+      "recommendation": "Effective duty ~24.23% on Crude Petroleum Oils. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 5,
       "audience": "Businesses",
       "theme": "Tariff Mitigation",
       "commodity": "Telephone Sets & Network Equipment",
@@ -746,7 +755,39 @@
       "expected_impact": "Reduce landed cost & margin pressure"
     },
     {
-      "priority": 12,
+      "priority": 6,
+      "audience": "Businesses",
+      "theme": "Tariff Mitigation",
+      "commodity": "Motor Vehicle Parts",
+      "recommendation": "Effective duty ~23.87% on Motor Vehicle Parts. Evaluate USMCA/other FTA claims, bonded warehousing, and supplier relocation ROI.",
+      "expected_impact": "Reduce landed cost & margin pressure"
+    },
+    {
+      "priority": 7,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Automatic Data Processing Machines",
+      "recommendation": "Investigate drop in Automatic Data Processing Machines on 2026-03-01 (z=-9.946). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 8,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Telephone Sets & Network Equipment",
+      "recommendation": "Investigate spike in Telephone Sets & Network Equipment on 2026-06-01 (z=7.766). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 9,
+      "audience": "Analysts",
+      "theme": "Anomaly Investigation",
+      "commodity": "Petroleum Gases",
+      "recommendation": "Investigate drop in Petroleum Gases on 2026-05-01 (z=-1.301). Cross-check against tariffs, sanctions, and port events.",
+      "expected_impact": "Early warning for policy & procurement"
+    },
+    {
+      "priority": 10,
       "audience": "Policymakers",
       "theme": "Industrial Base Monitoring",
       "commodity": NaN,
@@ -757,7 +798,7 @@
   "insights": [
     {
       "section": "Executive Overview",
-      "narrative": "Trade Flow Intelligence Agent run completed at 2026-08-09 17:49 UTC. Ingested 8 dataset sources (4 live API, 4 synthetic/fallback). Analysis covers country\u00d7commodity trade flows, port congestion, tariff exposure, anomaly detection, ARIMA forecasts, behavioral clustering, and composite supply-chain risk scores."
+      "narrative": "Trade Flow Intelligence Agent run completed at 2026-08-09 21:02 UTC. Ingested 8 dataset sources (4 live API, 4 synthetic/fallback). Analysis covers country\u00d7commodity trade flows, port congestion, tariff exposure, anomaly detection, ARIMA forecasts, behavioral clustering, and composite supply-chain risk scores."
     },
     {
       "section": "Data Quality Assessment",
@@ -765,11 +806,11 @@
     },
     {
       "section": "Anomaly Findings",
-      "narrative": "Detected 0 statistical anomalies (|z|\u22652.5) in monthly import values. No anomalies exceeded the configured threshold."
+      "narrative": "Detected 7 statistical anomalies (|z|\u22652.5) in monthly import values. Highest-severity events: Automatic Data Processing Machines (drop, z=-9.946, severity=10.0); Telephone Sets & Network Equipment (spike, z=7.766, severity=10.0); Petroleum Gases (drop, z=-1.301, severity=8.33); Motor Cars & Vehicles (spike, z=3.666, severity=5.5); Electronic Integrated Circuits (spike, z=3.386, severity=5.08)."
     },
     {
       "section": "Supply Chain & Geopolitical Risk",
-      "narrative": "6 critical commodities score Elevated/Critical on the composite risk index. Top exposures: Electronic Integrated Circuits (supplier=TOTAL FOR ALL COUNTRIES, share=18.62%, risk=67.6); Crude Petroleum Oils (supplier=TOTAL FOR ALL COUNTRIES, share=16.35%, risk=65.0); Petroleum Gases (supplier=TOTAL FOR ALL COUNTRIES, share=14.45%, risk=64.9); Medicaments Packaged (supplier=TOTAL FOR ALL COUNTRIES, share=18.38%, risk=61.5); Telephone Sets & Network Equipment (supplier=TOTAL FOR ALL COUNTRIES, share=19.79%, risk=61.5). Geopolitical flags highlight reliance on high-watchlist partners for semiconductors, critical minerals, and energy-related flows."
+      "narrative": "1 critical commodities score Elevated/Critical on the composite risk index. Top exposures: Petroleum Gases (supplier=CANADA, share=94.79%, risk=61.2); Electronic Integrated Circuits (supplier=TAIWAN, share=38.06%, risk=52.2); Crude Petroleum Oils (supplier=CANADA, share=62.11%, risk=46.9); Telephone Sets & Network Equipment (supplier=VIETNAM, share=23.83%, risk=33.9); Motor Vehicle Parts (supplier=MEXICO, share=43.57%, risk=32.9). Geopolitical flags highlight reliance on high-watchlist partners for semiconductors, critical minerals, and energy-related flows."
     },
     {
       "section": "Port Congestion Bottlenecks",
@@ -781,7 +822,7 @@
     },
     {
       "section": "Emerging Trade Opportunities",
-      "narrative": "Commodities with the strongest projected import demand growth (proxy for market opportunity / sourcing need): Telephone Sets & Network Equipment (1.9%); Crude Petroleum Oils (1.2%); Medicaments Packaged (1.0%); Petroleum Gases (0.7%); Automatic Data Processing Machines (0.3%). Export-side clusters with diversified partners present near-term commercial expansion potential."
+      "narrative": "Commodities with the strongest projected import demand growth (proxy for market opportunity / sourcing need): Telephone Sets & Network Equipment (0.7%); Motor Cars & Vehicles (0.6%); Electronic Integrated Circuits (0.5%); Crude Petroleum Oils (0.2%); Medicaments Packaged (0.1%). Export-side clusters with diversified partners present near-term commercial expansion potential."
     },
     {
       "section": "Clustering Interpretation",
@@ -798,1371 +839,266 @@
   ],
   "clusters_country": [
     {
-      "entity_name": "AFGHANISTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "AFRICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2361.27
-    },
-    {
-      "entity_name": "ALBANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.2
-    },
-    {
-      "entity_name": "ALGERIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 151.09
-    },
-    {
-      "entity_name": "ANDORRA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.09
-    },
-    {
-      "entity_name": "ANGOLA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 138.22
-    },
-    {
-      "entity_name": "ANGUILLA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "ANTIGUA AND BARBUDA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "APEC",
-      "cluster_label": "CountryCluster-1",
-      "total_import_12m_usd_m": 315214.06
-    },
-    {
-      "entity_name": "ARGENTINA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 836.28
-    },
-    {
-      "entity_name": "ARMENIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.03
-    },
-    {
-      "entity_name": "ARUBA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "ASEAN",
-      "cluster_label": "CountryCluster-4",
-      "total_import_12m_usd_m": 71063.56
-    },
-    {
-      "entity_name": "ASIA",
-      "cluster_label": "CountryCluster-3",
-      "total_import_12m_usd_m": 198335.49
-    },
-    {
-      "entity_name": "AUSTRALIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 87.84
-    },
-    {
-      "entity_name": "AUSTRALIA AND OCEANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 113.05
-    },
-    {
-      "entity_name": "AUSTRIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1097.39
-    },
-    {
-      "entity_name": "AZERBAIJAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "BAHAMAS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BAHRAIN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BANGLADESH",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 6.34
-    },
-    {
-      "entity_name": "BARBADOS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "BELARUS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BELGIUM",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 555.86
-    },
-    {
-      "entity_name": "BELIZE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BENIN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BERMUDA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.15
-    },
-    {
-      "entity_name": "BHUTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BOLIVIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BOSNIA AND HERZEGOVINA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1.78
-    },
-    {
-      "entity_name": "BOTSWANA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.12
-    },
-    {
-      "entity_name": "BRAZIL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1315.66
-    },
-    {
-      "entity_name": "BRITISH INDIAN OCEAN TERRITORIES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BRITISH VIRGIN ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "BRUNEI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BULGARIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 30.26
-    },
-    {
-      "entity_name": "BURKINA FASO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "BURMA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.26
-    },
-    {
-      "entity_name": "BURUNDI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CABO VERDE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CACM",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 178.3
-    },
-    {
-      "entity_name": "CAFTA-DR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 198.66
-    },
-    {
-      "entity_name": "CAMBODIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 21.84
-    },
-    {
-      "entity_name": "CAMEROON",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 108.85
-    },
-    {
-      "entity_name": "CANADA",
-      "cluster_label": "CountryCluster-2",
-      "total_import_12m_usd_m": 52797.65
-    },
-    {
-      "entity_name": "CAYMAN ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 6.36
-    },
-    {
-      "entity_name": "CENTRAL AFRICAN REPUBLIC",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CENTRAL AMERICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 708.95
-    },
-    {
-      "entity_name": "CHAD",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CHILE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 6.47
-    },
-    {
-      "entity_name": "CHINA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 13771.61
-    },
-    {
-      "entity_name": "CHRISTMAS ISLAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "COLOMBIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1860.42
-    },
-    {
-      "entity_name": "COMOROS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CONGO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "COOK ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3.8
-    },
-    {
-      "entity_name": "COSTA RICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 154.07
-    },
-    {
-      "entity_name": "COTE D'IVOIRE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1.98
-    },
-    {
-      "entity_name": "CROATIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 54.8
-    },
-    {
-      "entity_name": "CUBA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "CURACAO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.05
-    },
-    {
-      "entity_name": "CYPRUS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1.17
-    },
-    {
-      "entity_name": "CZECH REPUBLIC",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1034.98
-    },
-    {
-      "entity_name": "DEMOCRATIC REPUBLIC OF THE CONGO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 33.69
-    },
-    {
-      "entity_name": "DENMARK",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 176.51
-    },
-    {
-      "entity_name": "DJIBOUTI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "DOMINICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "DOMINICAN REPUBLIC",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 20.36
-    },
-    {
-      "entity_name": "ECUADOR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1404.04
-    },
-    {
-      "entity_name": "EGYPT",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.14
-    },
-    {
-      "entity_name": "EL SALVADOR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 5.87
-    },
-    {
-      "entity_name": "EQUATORIAL GUINEA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 12.29
-    },
-    {
-      "entity_name": "ERITREA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "ESTONIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 133.53
-    },
-    {
-      "entity_name": "ESWATINI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "ETHIOPIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3.08
-    },
-    {
-      "entity_name": "EURO AREA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 28746.39
-    },
-    {
-      "entity_name": "EUROPE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 43425.5
-    },
-    {
-      "entity_name": "EUROPEAN UNION",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 34516.76
-    },
-    {
-      "entity_name": "FAROE ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "FIJI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "FINLAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 696.17
-    },
-    {
-      "entity_name": "FRANCE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2389.55
-    },
-    {
-      "entity_name": "FRENCH GUIANA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "FRENCH POLYNESIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GABON",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 29.52
-    },
-    {
-      "entity_name": "GAMBIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GEORGIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.79
-    },
-    {
-      "entity_name": "GERMANY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 10443.89
-    },
-    {
-      "entity_name": "GHANA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 463.73
-    },
-    {
-      "entity_name": "GIBRALTAR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "GREECE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 5.79
-    },
-    {
-      "entity_name": "GREENLAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GRENADA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GUADELOUPE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "GUATEMALA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 4.33
-    },
-    {
-      "entity_name": "GUINEA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GUINEA-BISSAU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "GUYANA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2643.54
-    },
-    {
-      "entity_name": "HAITI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "HONDURAS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 13.75
-    },
-    {
-      "entity_name": "HONG KONG",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 67.49
-    },
-    {
-      "entity_name": "HUNGARY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2188.72
-    },
-    {
-      "entity_name": "ICELAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 7.54
-    },
-    {
-      "entity_name": "INDIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 15261.93
-    },
-    {
-      "entity_name": "INDONESIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 829.29
-    },
-    {
-      "entity_name": "IRAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "IRAQ",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 723.59
-    },
-    {
-      "entity_name": "IRELAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 6572.64
-    },
-    {
-      "entity_name": "ISRAEL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3317.97
-    },
-    {
-      "entity_name": "ITALY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2979.2
-    },
-    {
-      "entity_name": "JAMAICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
-    },
-    {
-      "entity_name": "JAPAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 16354.2
-    },
-    {
-      "entity_name": "JORDAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 18.01
-    },
-    {
-      "entity_name": "KAZAKHSTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.43
-    },
-    {
-      "entity_name": "KENYA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "KIRIBATI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "KOSOVO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "KUWAIT",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 31.84
-    },
-    {
-      "entity_name": "KYRGYZSTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.13
-    },
-    {
-      "entity_name": "LAFTA",
-      "cluster_label": "CountryCluster-4",
-      "total_import_12m_usd_m": 96221.75
-    },
-    {
-      "entity_name": "LAOS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 5.81
-    },
-    {
-      "entity_name": "LATVIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 17.53
-    },
-    {
-      "entity_name": "LEBANON",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2.33
-    },
-    {
-      "entity_name": "LESOTHO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "LIBERIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "LIBYA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 534.45
-    },
-    {
-      "entity_name": "LIECHTENSTEIN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3.89
-    },
-    {
-      "entity_name": "LITHUANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 20.15
-    },
-    {
-      "entity_name": "LUXEMBOURG",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3.05
-    },
-    {
-      "entity_name": "MACAU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1.96
-    },
-    {
-      "entity_name": "MACEDONIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 7.48
-    },
-    {
-      "entity_name": "MADAGASCAR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "MALAWI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "MALAYSIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 6274.87
-    },
-    {
-      "entity_name": "MALDIVES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "MALI",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.07
-    },
-    {
-      "entity_name": "MALTA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 18.09
-    },
-    {
-      "entity_name": "MARSHALL ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
-    },
-    {
-      "entity_name": "MARTINIQUE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "MAURITANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "MAURITIUS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "MAYOTTE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "MEXICO",
-      "cluster_label": "CountryCluster-4",
+      "entity_name": "Mexico",
+      "cluster_label": "C1: Mexico-led (10)",
       "total_import_12m_usd_m": 85929.37
     },
     {
-      "entity_name": "MICRONESIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "MOLDOVA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.05
-    },
-    {
-      "entity_name": "MONACO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "MONGOLIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.18
-    },
-    {
-      "entity_name": "MONTENEGRO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.06
-    },
-    {
-      "entity_name": "MONTSERRAT",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "MOROCCO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 116.16
-    },
-    {
-      "entity_name": "MOZAMBIQUE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.4
-    },
-    {
-      "entity_name": "NAMIBIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.24
-    },
-    {
-      "entity_name": "NATO",
-      "cluster_label": "CountryCluster-2",
-      "total_import_12m_usd_m": 84376.17
-    },
-    {
-      "entity_name": "NAURU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "NEPAL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
-    },
-    {
-      "entity_name": "NETHERLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 248.8
-    },
-    {
-      "entity_name": "NEW CALEDONIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "NEW ZEALAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 21.35
-    },
-    {
-      "entity_name": "NICARAGUA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.28
-    },
-    {
-      "entity_name": "NIGER",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "NIGERIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 531.51
-    },
-    {
-      "entity_name": "NIUE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "NORTH AMERICA",
-      "cluster_label": "CountryCluster-2",
-      "total_import_12m_usd_m": 138727.03
-    },
-    {
-      "entity_name": "NORWAY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 46.47
-    },
-    {
-      "entity_name": "OECD",
-      "cluster_label": "CountryCluster-2",
-      "total_import_12m_usd_m": 218150.61
-    },
-    {
-      "entity_name": "OMAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.94
-    },
-    {
-      "entity_name": "PACIFIC RIM COUNTRIES",
-      "cluster_label": "CountryCluster-3",
-      "total_import_12m_usd_m": 116229.61
-    },
-    {
-      "entity_name": "PAKISTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2.22
-    },
-    {
-      "entity_name": "PALAU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "PANAMA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.98
-    },
-    {
-      "entity_name": "PAPUA NEW GUINEA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.04
-    },
-    {
-      "entity_name": "PARAGUAY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
-    },
-    {
-      "entity_name": "PERU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 29.21
-    },
-    {
-      "entity_name": "PHILIPPINES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1332.78
-    },
-    {
-      "entity_name": "POLAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 431.35
-    },
-    {
-      "entity_name": "PORTUGAL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 421.24
-    },
-    {
-      "entity_name": "QATAR",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "REUNION",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "ROMANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 233.64
-    },
-    {
-      "entity_name": "RUSSIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.39
-    },
-    {
-      "entity_name": "RWANDA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1.11
-    },
-    {
-      "entity_name": "SAMOA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SAN MARINO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "SAO TOME AND PRINCIPE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SAUDI ARABIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2578.61
-    },
-    {
-      "entity_name": "SENEGAL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.23
-    },
-    {
-      "entity_name": "SERBIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 29.41
-    },
-    {
-      "entity_name": "SEYCHELLES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "SIERRA LEONE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.03
-    },
-    {
-      "entity_name": "SINGAPORE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 2375.4
-    },
-    {
-      "entity_name": "SINT MAARTEN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SLOVAKIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1995.52
-    },
-    {
-      "entity_name": "SLOVENIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 672.63
-    },
-    {
-      "entity_name": "SOLOMON ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SOMALIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SOUTH AFRICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 228.63
-    },
-    {
-      "entity_name": "SOUTH AMERICA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 12936.42
-    },
-    {
-      "entity_name": "SOUTH SUDAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SPAIN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 389.15
-    },
-    {
-      "entity_name": "SRI LANKA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 3.25
-    },
-    {
-      "entity_name": "ST HELENA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "ST KITTS AND NEVIS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.08
-    },
-    {
-      "entity_name": "ST LUCIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
-    },
-    {
-      "entity_name": "ST VINCENT AND THE GRENADINES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "SUDAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "SURINAME",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.51
-    },
-    {
-      "entity_name": "SWEDEN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 1705.16
-    },
-    {
-      "entity_name": "SWITZERLAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 4108.26
-    },
-    {
-      "entity_name": "SYRIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "South Korea",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 14590.88
-    },
-    {
-      "entity_name": "TAIWAN",
-      "cluster_label": "CountryCluster-4",
+      "entity_name": "Taiwan",
+      "cluster_label": "C1: Mexico-led (10)",
       "total_import_12m_usd_m": 60521.91
     },
     {
-      "entity_name": "TAJIKISTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
+      "entity_name": "Canada",
+      "cluster_label": "C2: Canada",
+      "total_import_12m_usd_m": 52797.65
     },
     {
-      "entity_name": "TANZANIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "THAILAND",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 28453.15
-    },
-    {
-      "entity_name": "TIMOR-LESTE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "TOGO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "TONGA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.01
-    },
-    {
-      "entity_name": "TOTAL FOR ALL COUNTRIES",
-      "cluster_label": "CountryCluster-1",
-      "total_import_12m_usd_m": 396607.71
-    },
-    {
-      "entity_name": "TRINIDAD AND TOBAGO",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 502.45
-    },
-    {
-      "entity_name": "TUNISIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 5.48
-    },
-    {
-      "entity_name": "TURKEY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 240.48
-    },
-    {
-      "entity_name": "TURKMENISTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "TURKS AND CAICOS ISLANDS",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.05
-    },
-    {
-      "entity_name": "TWENTY LATIN AMERICAN REPUBLICS",
-      "cluster_label": "CountryCluster-4",
-      "total_import_12m_usd_m": 96421.41
-    },
-    {
-      "entity_name": "UGANDA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "UKRAINE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 12.31
-    },
-    {
-      "entity_name": "UNITED ARAB EMIRATES",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 16.58
-    },
-    {
-      "entity_name": "UNITED KINGDOM",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 4448.82
-    },
-    {
-      "entity_name": "URUGUAY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.11
-    },
-    {
-      "entity_name": "USMCA (NAFTA)",
-      "cluster_label": "CountryCluster-2",
-      "total_import_12m_usd_m": 138727.03
-    },
-    {
-      "entity_name": "UZBEKISTAN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.06
-    },
-    {
-      "entity_name": "VANUATU",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "VATICAN CITY",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
-    },
-    {
-      "entity_name": "VENEZUELA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 4840.15
-    },
-    {
-      "entity_name": "VIETNAM",
-      "cluster_label": "CountryCluster-0",
+      "entity_name": "Vietnam",
+      "cluster_label": "C1: Mexico-led (10)",
       "total_import_12m_usd_m": 31770.16
     },
     {
-      "entity_name": "WALLIS AND FUTUNA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
+      "entity_name": "Thailand",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 28453.15
     },
     {
-      "entity_name": "WEST BANK ADMINISTERED BY ISRAEL",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
+      "entity_name": "Japan",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 16354.2
     },
     {
-      "entity_name": "YEMEN",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.0
+      "entity_name": "India",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 15261.93
     },
     {
-      "entity_name": "ZAMBIA",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.08
+      "entity_name": "South Korea",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 14590.88
     },
     {
-      "entity_name": "ZIMBABWE",
-      "cluster_label": "CountryCluster-0",
-      "total_import_12m_usd_m": 0.02
+      "entity_name": "China",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 13771.61
+    },
+    {
+      "entity_name": "Germany",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 10443.89
+    },
+    {
+      "entity_name": "Ireland",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 6572.64
+    },
+    {
+      "entity_name": "Malaysia",
+      "cluster_label": "C1: Mexico-led (10)",
+      "total_import_12m_usd_m": 6274.87
+    },
+    {
+      "entity_name": "Venezuela",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 4840.15
+    },
+    {
+      "entity_name": "United Kingdom",
+      "cluster_label": "C3: Japan-led (7)",
+      "total_import_12m_usd_m": 4448.82
+    },
+    {
+      "entity_name": "Switzerland",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 4108.26
+    },
+    {
+      "entity_name": "Israel",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 3317.97
+    },
+    {
+      "entity_name": "Italy",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 2979.2
+    },
+    {
+      "entity_name": "Guyana",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 2643.54
+    },
+    {
+      "entity_name": "Saudi Arabia",
+      "cluster_label": "C5: Venezuela-led (6)",
+      "total_import_12m_usd_m": 2578.61
+    },
+    {
+      "entity_name": "France",
+      "cluster_label": "C4: Ireland-led (6)",
+      "total_import_12m_usd_m": 2389.55
     }
   ],
   "hist": [
     {
       "series": "Crude Petroleum Oils",
       "x": "2026-03-01",
-      "y": 73816.559935
+      "y": 12459.877465
     },
     {
       "series": "Crude Petroleum Oils",
       "x": "2026-04-01",
-      "y": 84939.998991
+      "y": 13893.659486
     },
     {
       "series": "Crude Petroleum Oils",
       "x": "2026-05-01",
-      "y": 93145.14349
+      "y": 15156.298648
     },
     {
       "series": "Crude Petroleum Oils",
       "x": "2026-06-01",
-      "y": 93256.883342
+      "y": 14910.17907
     },
     {
       "series": "Petroleum Gases",
       "x": "2026-03-01",
-      "y": 9434.041521
+      "y": 1364.934269
     },
     {
       "series": "Petroleum Gases",
       "x": "2026-04-01",
-      "y": 6409.252572
+      "y": 930.702943
     },
     {
       "series": "Petroleum Gases",
       "x": "2026-05-01",
-      "y": 4372.654266
+      "y": 620.414704
     },
     {
       "series": "Petroleum Gases",
       "x": "2026-06-01",
-      "y": 5277.838895
+      "y": 768.6274249999999
     },
     {
       "series": "Medicaments Packaged",
       "x": "2026-03-01",
-      "y": 33429.934893
+      "y": 6144.479094
     },
     {
       "series": "Medicaments Packaged",
       "x": "2026-04-01",
-      "y": 35613.516472
+      "y": 6486.3176
     },
     {
       "series": "Medicaments Packaged",
       "x": "2026-05-01",
-      "y": 37503.163954
+      "y": 7037.612699
     },
     {
       "series": "Medicaments Packaged",
       "x": "2026-06-01",
-      "y": 37551.239164
+      "y": 6818.536268
     },
     {
       "series": "Automatic Data Processing Machines",
       "x": "2026-03-01",
-      "y": 194210.247973
+      "y": 32613.158623
     },
     {
       "series": "Automatic Data Processing Machines",
       "x": "2026-04-01",
-      "y": 213172.202618
+      "y": 35262.741625
     },
     {
       "series": "Automatic Data Processing Machines",
       "x": "2026-05-01",
-      "y": 220874.953338
+      "y": 35711.744148
     },
     {
       "series": "Automatic Data Processing Machines",
       "x": "2026-06-01",
-      "y": 223133.637687
+      "y": 35199.413826
     },
     {
       "series": "Telephone Sets & Network Equipment",
       "x": "2026-03-01",
-      "y": 74604.754408
+      "y": 14671.273115
     },
     {
       "series": "Telephone Sets & Network Equipment",
       "x": "2026-04-01",
-      "y": 76026.32621099999
+      "y": 15223.915972
     },
     {
       "series": "Telephone Sets & Network Equipment",
       "x": "2026-05-01",
-      "y": 76005.017556
+      "y": 15092.333377
     },
     {
       "series": "Telephone Sets & Network Equipment",
       "x": "2026-06-01",
-      "y": 87830.633298
+      "y": 17237.599999
     },
     {
       "series": "Electronic Integrated Circuits",
       "x": "2026-03-01",
-      "y": 25236.375843
+      "y": 4684.700629
     },
     {
       "series": "Electronic Integrated Circuits",
       "x": "2026-04-01",
-      "y": 23879.836213
+      "y": 4396.721767
     },
     {
       "series": "Electronic Integrated Circuits",
       "x": "2026-05-01",
-      "y": 24012.798367
+      "y": 4476.331643
     },
     {
       "series": "Electronic Integrated Circuits",
       "x": "2026-06-01",
-      "y": 26648.424223
+      "y": 5022.811092
     },
     {
       "series": "Motor Cars & Vehicles",
       "x": "2026-03-01",
-      "y": 110211.027143
+      "y": 16487.803848
     },
     {
       "series": "Motor Cars & Vehicles",
       "x": "2026-04-01",
-      "y": 97397.699731
+      "y": 14608.94208
     },
     {
       "series": "Motor Cars & Vehicles",
       "x": "2026-05-01",
-      "y": 101309.41316
+      "y": 15100.9718
     },
     {
       "series": "Motor Cars & Vehicles",
       "x": "2026-06-01",
-      "y": 103101.298442
+      "y": 15393.486649
     },
     {
       "series": "Motor Vehicle Parts",
       "x": "2026-03-01",
-      "y": 50861.940509
+      "y": 7411.711043
     },
     {
       "series": "Motor Vehicle Parts",
       "x": "2026-04-01",
-      "y": 48575.20689
+      "y": 7100.175643
     },
     {
       "series": "Motor Vehicle Parts",
       "x": "2026-05-01",
-      "y": 50375.983229
+      "y": 7355.540300000001
     },
     {
       "series": "Motor Vehicle Parts",
       "x": "2026-06-01",
-      "y": 47649.43247
+      "y": 6964.690873
     }
   ]
 }

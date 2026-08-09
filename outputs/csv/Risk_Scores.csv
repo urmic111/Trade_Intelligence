@@ -1,9 +1,9 @@
 hs_code,commodity,critical,top_supplier,top_supplier_share_pct,dependency_score_0_100,geo_risk_factor,geopolitical_flag,total_effective_duty_pct,tariff_sensitive,tariff_risk_0_100,avg_event_severity,n_events,disruption_risk_0_100,port_congestion_indicator,composite_risk_0_100,risk_tier
-8542,Electronic Integrated Circuits,True,TOTAL FOR ALL COUNTRIES,18.62,100,0.3,False,28.06,True,56.1,9.9,1,63.4,53.1,67.6,Elevated
-2709,Crude Petroleum Oils,True,TOTAL FOR ALL COUNTRIES,16.35,100,0.3,False,24.23,True,48.5,6.233333333333333,3,49.4,53.1,65.0,Elevated
-2711,Petroleum Gases,True,TOTAL FOR ALL COUNTRIES,14.45,100,0.3,False,40.41,True,80.8,0.0,0,0.0,53.1,64.9,Elevated
-3004,Medicaments Packaged,True,TOTAL FOR ALL COUNTRIES,18.38,100,0.3,False,29.06,True,58.1,0.0,0,0.0,53.1,61.5,Elevated
-8517,Telephone Sets & Network Equipment,True,TOTAL FOR ALL COUNTRIES,19.79,100,0.3,False,29.08,True,58.2,0.0,0,0.0,53.1,61.5,Elevated
-8708,Motor Vehicle Parts,False,TOTAL FOR ALL COUNTRIES,14.6,100,0.3,False,23.87,True,47.7,0.0,0,0.0,53.1,60.0,Elevated
-8703,Motor Cars & Vehicles,False,TOTAL FOR ALL COUNTRIES,14.95,100,0.3,False,10.14,True,20.3,2.7,1,20.2,53.1,57.9,Elevated
-8471,Automatic Data Processing Machines,True,TOTAL FOR ALL COUNTRIES,16.3,100,0.3,False,15.95,True,31.9,0.0,0,0.0,53.1,57.6,Elevated
+2711,Petroleum Gases,True,CANADA,94.79,100.0,0.15,False,40.41,True,80.8,0.0,0,0.0,53.1,61.2,Elevated
+8542,Electronic Integrated Circuits,True,TAIWAN,38.06,36.7,0.7,True,28.06,True,56.1,9.9,1,63.4,53.1,52.2,Moderate
+2709,Crude Petroleum Oils,True,CANADA,62.11,64.0,0.15,False,24.23,True,48.5,6.233333333333333,3,49.4,53.1,46.9,Moderate
+8517,Telephone Sets & Network Equipment,True,VIETNAM,23.83,24.6,0.4,False,29.08,True,58.2,0.0,0,0.0,53.1,33.9,Low
+8708,Motor Vehicle Parts,False,MEXICO,43.57,35.4,0.25,False,23.87,True,47.7,0.0,0,0.0,53.1,32.9,Low
+8471,Automatic Data Processing Machines,True,MEXICO,36.13,39.2,0.25,False,15.95,True,31.9,0.0,0,0.0,53.1,32.0,Low
+3004,Medicaments Packaged,True,IRELAND,16.15,15.9,0.3,False,29.06,True,58.1,0.0,0,0.0,53.1,27.9,Low
+8703,Motor Cars & Vehicles,False,MEXICO,22.33,19.6,0.25,False,10.14,True,20.3,2.7,1,20.2,53.1,24.5,Low

@@ -25,6 +25,7 @@ for _path in (DATA_RAW, DATA_PROCESSED, DATA_CACHE, OUTPUTS):
 # API keys (optional — pipeline falls back to public/synthetic data)
 CENSUS_API_KEY = os.getenv("CENSUS_API_KEY", "")
 BEA_API_KEY = os.getenv("BEA_API_KEY", "")
+DATA_GOV_API_KEY = os.getenv("DATA_GOV_API_KEY", "")
 
 # Data.gov / agency endpoints
 DATASETS = {
